@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "img_url": "assets/images/ecm/SandipGhosh.png",
+        "img_url": "assets/images/ecm/2022-23/SandipGhosh.png",
         "img_xurl": "",
         "designation":"President",
         "tag": "",
@@ -13,7 +13,7 @@
     },
     {
         "id": "2",
-        "img_url": "assets/images/ecm/Sumanta.png", 
+        "img_url": "assets/images/ecm/2022-23/Sumanta.png", 
         "img_xurl": "",
         "designation":"General Secretary",
         "tag": "",
@@ -25,7 +25,7 @@
     },
     {
         "id": "3",
-        "img_url": "assets/images/ecm/DebikaDas.jpg",
+        "img_url": "assets/images/ecm/2022-23/DebikaDas.jpg",
         "img_xurl": "",
         "designation":"Treasurer",
         "tag": "",
@@ -36,8 +36,20 @@
         "website":""
     },
     {
+        "id": "7",
+        "img_url": "assets/images/ecm/2022-23/Debarati.png",
+        "img_xurl": "",
+        "designation":"Cultural Secretary",
+        "tag": "",
+        "description": "",
+        "display_name": "Debarati Bhattacharjee",
+        "facebook": "",
+        "linkedin": "",
+        "website":""
+    },
+    {
         "id": "4",
-        "img_url": "assets/images/ecm/Kingshuk.jpg",
+        "img_url": "assets/images/ecm/2022-23/Kingshuk.jpg",
         "img_xurl": "",
         "designation":"Food",
         "tag": "",
@@ -49,7 +61,7 @@
     },
     {
         "id": "5",
-        "img_url": "assets/images/ecm/DhrubaJyoti.png",
+        "img_url": "assets/images/ecm/2022-23/DhrubaJyoti.png",
         "img_xurl": "",
         "designation":"IT Secretary",
         "tag": "",
@@ -59,22 +71,9 @@
         "linkedin": "",
         "website":""
     },
-    
-    {
-        "id": "7",
-        "img_url": "assets/images/ecm/Debarati.png",
-        "img_xurl": "",
-        "designation":"Cultural Secretary",
-        "tag": "",
-        "description": "",
-        "display_name": "Debarati Bhattacharjee",
-        "facebook": "",
-        "linkedin": "",
-        "website":""
-    },
     {
         "id": "6",
-        "img_url": "assets/images/ecm/deb.jpg",
+        "img_url": "assets/images/ecm/2022-23/deb.jpg",
         "img_xurl": "",
         "designation":"Fund Raising",
         "tag": "",
@@ -86,7 +85,7 @@
     },
     {
         "id": "9",
-        "img_url": "assets/images/ecm/banni.jpg",
+        "img_url": "assets/images/ecm/2022-23/banni.jpg",
         "img_xurl": "",
         "designation":"Communications",
         "tag": "",
@@ -98,7 +97,7 @@
     },
     {
         "id": "10",
-        "img_url": "assets/images/ecm/santanu.jpg",
+        "img_url": "assets/images/ecm/2022-23/santanu.jpg",
         "img_xurl": "",
         "designation":"Magazine Publication",
         "tag": "",
@@ -110,7 +109,7 @@
     },
     {
         "id": "11",
-        "img_url": "assets/images/ecm/sujan.png",
+        "img_url": "assets/images/ecm/2022-23/sujan.png",
         "img_xurl": "",
         "designation":"Operations",
         "tag": "",
@@ -122,7 +121,7 @@
     },
     {
         "id": "8",
-        "img_url": "assets/images/ecm/arijit.jpg",
+        "img_url": "assets/images/ecm/2022-23/arijit.jpg",
         "img_xurl": "",
         "designation":"Operations",
         "tag": "",
@@ -132,6 +131,5 @@
         "linkedin": "",
         "website":""
     }
-    
 
 ]

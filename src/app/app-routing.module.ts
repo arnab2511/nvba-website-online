@@ -40,7 +40,7 @@ import { ProposedconstitutionComponent } from './pages/archive/proposedconstitut
 import { UserDetailsCheckComponent } from './components/user-details-check/user-details-check.component';
 import { Pastteam2023to24Component } from './pages/archive/pastteam2023to24/pastteam2023to24.component';
 import { Kobipronam2024Component } from './pages/kobipronam2024/kobipronam2024.component';
-
+import { TechadvisorComponent } from './pages/aboutus/techadvisor/techadvisor.component';
 
 
 const routes: Routes = [
@@ -62,7 +62,7 @@ const routes: Routes = [
   { path: 'frompresidentsdesk', component: PresidentsdeskComponent },
   { path: 'about', component: TeamComponent },
   { path: 'archive', component: MagazinesComponent },
-
+  { path: "techadvisor", component: TechadvisorComponent, pathMatch: 'full'  },
 
 
   { path: 'sign-in', component: SignInComponent },

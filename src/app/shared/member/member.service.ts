@@ -90,16 +90,20 @@ export class MemberService {
           });
       }
   
-      kp2023(purches:any){
-        //  this.db.object('/concet-2022/').update( JSON.parse( JSON.stringify(memb ) )).catch(error => {
-            this.db.object('/kp2023/'+purches.id).set({ ...purches }).catch(error => {
-                  console.log(error);
-                }).then( c => {
-                  console.log("Success Create.");
-                });
-            }
+  kp2023(purches:any){
+        this.db.object('/kp2023/'+purches.id).set({ ...purches }).catch(error => {
+              console.log(error);
+            }).then( c => {
+              console.log("Success Create.");
+            });
+        }
 
-      
-
+  kp2024(purches:any){
+        this.db.object('/kp2024/'+purches.id).set({ ...purches }).catch(error => {
+              console.log(error);
+            }).then( c => {
+              console.log("Success Create.");
+            });
+        }
 
 }

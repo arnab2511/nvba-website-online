@@ -40,6 +40,14 @@
         },
         {
             "pageId": "23",
+            "pageName": "Technical Advisor",
+            "pageLink": "techadvisor",
+            "tag": "",
+            "description": "Technical Advisor team",
+            "child": null
+        },
+        {
+            "pageId": "24",
             "pageName": "Our Constitution",
             "pageLink": "constitution",
             "tag": "",
@@ -47,7 +55,7 @@
             "child": null
         },
         {
-            "pageId": "24",
+            "pageId": "25",
             "pageName": "Annual General Meeting",
             "pageLink": "agm",
             "tag": "",
@@ -55,7 +63,7 @@
             "child": null
         },
         {
-            "pageId": "25",
+            "pageId": "26",
             "pageName": "From President's Desk",
             "pageLink": "frompresidentsdesk",
             "tag": "",
@@ -63,7 +71,7 @@
             "child": null
         },
         {
-            "pageId": "26",
+            "pageId": "27",
             "pageName": "Event Promotion Guidelines",
             "pageLink": "eventspromoguidelines",
             "tag": "",

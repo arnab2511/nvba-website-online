@@ -79,6 +79,7 @@ import { UserDetailsCheckComponent } from './components/user-details-check/user-
 import { QRCodeModule } from 'angularx-qrcode';
 import { Pastteam2023to24Component } from './pages/archive/pastteam2023to24/pastteam2023to24.component';
 import { Kobipronam2024Component } from './pages/kobipronam2024/kobipronam2024.component';
+import { TechadvisorComponent } from './pages/aboutus/techadvisor/techadvisor.component';
 
 
 @NgModule({
@@ -131,7 +132,8 @@ import { Kobipronam2024Component } from './pages/kobipronam2024/kobipronam2024.c
     ProposedconstitutionComponent,
     UserDetailsCheckComponent,
     Pastteam2023to24Component,
-    Kobipronam2024Component
+    Kobipronam2024Component,
+    TechadvisorComponent
 
   ],
   imports: [

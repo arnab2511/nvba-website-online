@@ -211,7 +211,7 @@ export class FoodcheckoutComponent implements OnInit {
         //    this.member.purchase.unshift(this.cartCheck);
         //    console.log(this.member);
         //    this.mds.UpdateMember(this.member.id, this.member);
-          this.mds.kp2023(payment);
+          this.mds.kp2024(payment);
            console.log('update done');
           this.toastr.success('Your payment is successful.','Payment Process');
           console.log(payment);

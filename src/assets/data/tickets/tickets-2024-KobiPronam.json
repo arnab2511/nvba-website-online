@@ -10,7 +10,7 @@
       },
       {
         "name": "Snacks",
-        "description": "Ghugni",
+        "description": "Veg Ghugni",
         "quantity": 0,
         "price": 3,
         "tax": 0,
@@ -20,10 +20,19 @@
       {
         "name": "Tea",
         "description": "Tea",
-        "quantity": 1,
+        "quantity": 0,
         "price": 1,
         "tax": 0,
         "sku": "KP2024TEA",
+        "currency": "USD" 
+      },
+      {
+        "name": "Cold Drinks",
+        "description": "Cold Drinks(Coke, Fanta)",
+        "quantity": 0,
+        "price": 1,
+        "tax": 0,
+        "sku": "KP2024COLDDRINKS",
         "currency": "USD" 
       },
       {
@@ -32,7 +41,7 @@
         "quantity": 0,
         "price": 12,
         "tax": 0,
-        "sku": "KP2024NON",
+        "sku": "KP2024NONVEG",
         "currency": "USD" 
       },
       {
