@@ -28,60 +28,74 @@
                 </tr>
                 <tr>
                     <th class="d-flex justify-content-around ">Snacks</th>
-                    <th align="d-flex justify-content-center">Count</th>
+                    <th align="d-flex justify-content-center">Count/Price Details</th>
                 </tr>
                 <tr>
-                  <th>Veg Chop</th>
+                  <th>Veg Chop($2/pcs)</th>
                   <td>
                       <div class="d-flex justify-content-around ">
                           <div class="green" >{{KP2024VEGCHOP}}</div>
+                          <div class="green" >${{KP2024VEGCHOP*2}}</div>
                      </div> 
                   </td>
                 </tr>
                 <tr>
-                  <th>Veg Ghugni</th>
+                  <th>Veg Ghugni($3/bowl)</th>
                   <td>
                       <div class="d-flex justify-content-around ">
                           <div class="green">{{KP2024GHUGNI}}</div>
+                          <div class="green" >${{KP2024GHUGNI*3}}</div>
                       </div>
                   </td>
                 </tr>
                 <tr>
-                  <th>Tea</th>
+                  <th>Tea($1/cup)</th>
                   <td>
                       <div class="d-flex justify-content-around ">
-                          <div >{{KP2024TEA}}</div>
+                          <div class="green" >{{KP2024TEA}}</div>
+                          <div class="green" >${{KP2024TEA*1}}</div>
                       </div>
                   </td>
                 </tr>
                 <tr>
-                    <th>Cold Drinks</th>
+                    <th>Cold Drinks($1)</th>
                     <td>
                         <div class="d-flex justify-content-around ">
-                            <div >{{KP2024COLDDRINKS}}</div>
+                            <div class="green" >{{KP2024COLDDRINKS}}</div>
+                            <div class="green" >${{KP2024COLDDRINKS*1}}</div>
                         </div>
                     </td>
                   </tr>
                   <tr>
                     <th class="d-flex justify-content-around ">Dinner</th>
-                    <th>Count</th>
+                    <th>Count/Price Details</th>
                 </tr>
                 <tr>
-                    <th>Veg Biriyani</th>
+                    <th>Veg Biriyani($10)</th>
                     <td>
                         <div class="d-flex justify-content-around ">
-                            <div >{{KP2024VEG}}</div>
+                            <div class="green" >{{KP2024VEG}}</div>
+                            <div class="green" >${{KP2024VEG*10}}</div>
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <th>Non-Veg Biriyani</th>
+                    <th>Non-Veg Biriyani($12)</th>
                     <td>
                         <div class="d-flex justify-content-around ">
-                            <div >{{KP2024NONVEG}}</div>
+                            <div class="green" >{{KP2024NONVEG}}</div>
+                            <div class="green" >${{KP2024NONVEG*12}}</div>
                         </div>
                     </td>
-                  </tr>
+                </tr>
+                <tr class=" bg-light " >
+                    <th>Total Food Sell</th>
+                      <th>
+                        <div class="d-flex justify-content-around ">
+                            <div  >${{KP2024VEGCHOP*2+KP2024GHUGNI*3+KP2024TEA*1+KP2024COLDDRINKS*1+KP2024VEG*10+KP2024NONVEG*12}}</div>
+                        </div>
+                      </th>
+                </tr>
               </table>
 
 
