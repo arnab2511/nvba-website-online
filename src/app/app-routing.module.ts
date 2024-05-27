@@ -83,7 +83,7 @@ const routes: Routes = [
   { path: 'concertcheckout', component: EventscheckoutComponent },         
   // { path: 'tickets', component: EventticketsComponent, canActivate:[AuthGuard] },kobipronam
   { path: 'kobipronam', component: KobipronamComponent },
-  { path: 'kobipronam-2024', component: Kobipronam2024Component },
+  { path: 'kobipronam2024', component: Kobipronam2024Component },
   { path: 'foodcheckout', component: FoodcheckoutComponent },
   { path: 'picnic', component: PicnicComponent },
   { path: 'cares', component: CaresComponent },
