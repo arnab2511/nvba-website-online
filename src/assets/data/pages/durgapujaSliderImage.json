@@ -1,0 +1,43 @@
+[
+    {
+        "homeSliderImageId": "1",
+        "name": "durgapuja-2022-1.jpg",
+        "imageLink": "./../../../assets/images/stocks/2023/durga-ascha.jpg", 
+        "tag": "",
+        "description": ""
+    },
+    {
+        "homeSliderImageId": "2",
+        "homeSliderImage": "durgapuja-2022-2.jpg",
+        "imageLink": "./../../../assets/images/stocks/2023/artist-2023.jpg",
+        "tag": "",
+        "description": ""
+    }
+    ,{
+        "homeSliderImageId": "3",
+        "homeSliderImage": "durgapuja-2022-3.jpg",
+        "imageLink": "./../../../assets/images/gallery/dp/durgapuja-2022-3.jpg",
+        "tag": "",
+        "description": ""
+    },{
+        "homeSliderImageId": "4",
+        "homeSliderImage": "durgapuja-2022-4.jpg",
+        "imageLink": "./../../../assets/images/gallery/dp/durgapuja-2022-4.jpg",
+        "tag": "",
+        "description": ""
+    },
+    {
+        "homeSliderImageId": "5",
+        "homeSliderImage": "durgapuja-2022-5.jpg",
+        "imageLink": "./../../../assets/images/gallery/dp/durgapuja-2022-5.jpg",
+        "tag": "",
+        "description": ""
+    },
+    {
+        "homeSliderImageId": "6",
+        "homeSliderImage": "durgapuja-2022-6.jpg",
+        "imageLink": "./../../../assets/images/gallery/dp/durgapuja-2022-6.jpg",
+        "tag": "",
+        "description": ""
+    }
+]

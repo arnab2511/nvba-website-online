@@ -1,0 +1,123 @@
+[
+    {
+        "id": "1",
+        "img_url": "assets/images/ecm/SumantaChakraborty.jpg", 
+        "img_xurl": "",
+        "designation":"President",
+        "tag": "",
+        "description": "0",
+        "display_name": "Sumanta Chakraborty",
+        "facebook": "https://www.facebook.com/sumanta.chakraborty.92/",
+        "linkedin": "",
+        "website":""
+    },
+    {
+        "id": "2",
+        "img_url": "assets/images/ecm/arijitAuddy.jpg",
+        "img_xurl": "",
+        "designation":"General Secretary",
+        "tag": "",
+        "description": "",
+        "display_name": "Arijit Auddy",
+        "facebook": "https://www.facebook.com/arijit.auddy",
+        "linkedin": "",
+        "website":""
+    },
+    {
+        "id": "3",
+        "img_url": "assets/images/ecm/IpsitaGhosh.jpg",
+        "img_xurl": "",
+        "designation":"Treasurer",
+        "tag": "",
+        "description": "",
+        "display_name": "Ipsita Ghosh",
+        "facebook": "https://www.facebook.com/ipsita.ghosh.50",
+        "linkedin": "",
+        "website":""
+    },
+    {
+        "id": "4",
+        "img_url": "assets/images/ecm/SatarupaDas.jpg",
+        "img_xurl": "",
+        "designation":"Cultural Secretary",
+        "tag": "",
+        "description": "",
+        "display_name": "Satarupa Das",
+        "facebook": "https://www.facebook.com/sameeransatarupa.das",
+        "linkedin": "",
+        "website":""
+    },
+    {
+        "id": "5",
+        "img_url": "assets/images/ecm/MrinalChakraborty.jpg",
+        "img_xurl": "",
+        "designation":"Food Secretary",
+        "tag": "",
+        "description": "",
+        "display_name": "Mrinal Chakraborty",
+        "facebook": "",
+        "linkedin": "https://www.facebook.com/mrinal.chakraborty.733",
+        "website":""
+    },
+    {
+        "id": "6",
+        "img_url": "assets/images/ecm/ArnabChakraborty.jpg",
+        "img_xurl": "",
+        "designation":"IT Secretary",
+        "tag": "",
+        "description": "",
+        "display_name": "Arnab Chakraborty",
+        "facebook": "https://www.facebook.com/25Arnab",
+        "linkedin": "",
+        "website":""
+    },
+    {
+        "id": "7",
+        "img_url": "assets/images/ecm/NayanBhattacharjee.jpg",
+        "img_xurl": "",
+        "designation":"Operations Secretary",
+        "tag": "",
+        "description": "",
+        "display_name": "Nayan Bhattacharya",
+        "facebook": "https://www.facebook.com/nayan.bhattacharjee.7",
+        "linkedin": "",
+        "website":""
+    },
+    {
+        "id": "8",
+        "img_url": "assets/images/ecm/SugataChakraborty.jpg",
+        "img_xurl": "",
+        "designation":"Fund Raising Secretary",
+        "tag": "",
+        "description": "",
+        "display_name": "Sugata Chakraborty",
+        "facebook": "",
+        "linkedin": "",
+        "website":""
+    },
+    {
+        "id": "9",
+        "img_url": "assets/images/ecm/TapasriChakraborty.jpg",
+        "img_xurl": "",
+        "designation":"Communications/Magazine Secretary",
+        "tag": "",
+        "description": "",
+        "display_name": "Tapasri Chakraborty",
+        "facebook": "https://www.facebook.com/tapasri.chakraborty",
+        "linkedin": "",
+        "website":""
+    },
+    {
+        "id": "10",
+        "img_url": "assets/images/ecm/swapan.jpg",
+        "img_xurl": "",
+        "designation":"Pujo Secretary",
+        "tag": "",
+        "description": "",
+        "display_name": "Swapan Acharya",
+        "facebook": "https://www.facebook.com/swapan.acharyya1",
+        "linkedin": "",
+        "website":""
+    }
+
+]

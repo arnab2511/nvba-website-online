@@ -1,0 +1,71 @@
+<div class="row wrapper"   >
+    
+    <div *ngIf="!memberValidity" class="col-md-12 pt-3 " id="cartmember"  >
+        <!-- <p class=" text-center " style="color: #848484;">
+
+            Durga Puja 2023 tickets are exclusively available for members.<br />
+             If you are already a member, kindly log in to make your ticket purchase.  
+
+        </p> -->
+        <div style="font-weight: bold; font-size: 1.1em;color: #848484; text-align: center;" ><b>Membership fees: $30 per family.</b> </div>
+           
+        <!-- <p class=" text-center ">
+
+            We suspend our purchase tickets online. Due to overwhelming response of our Members and Guests. 
+            <br />
+            Sorry for the inconvenience.
+
+        </p> -->
+
+        <div  class="redExpired" *ngIf="this.member?.expires"  > Membership Expired : {{ this.member?.expires }}</div>
+
+        <button *ngIf="this.member?.expires" (click)="addToCartobj()" class="btn-get-started w-100 mb-3 mt-2" > Renew Annual Membership</button>
+
+        <button *ngIf="!this.member?.expires" (click)="addToCartobj()" class="btn-get-started w-100 mb-3 mt-2" >
+            NVBA Annual Membership</button>
+        <div class="flex-column row ">
+            <div style="font-weight: bold; font-size: 1.2em;color: #848484; text-align: center;" ><span class=" text-primary ">*</span><b>Membership Benefits:</b> </div>
+            <ul  style=" color: #848484; text-align: center;"> 
+                <li>
+                    Access to year round member only events like kobi pronam, nobo borsho celebrations, picnic etc.
+                </li>
+                <li>
+                    Access to early bird discounted tickets.
+                </li>
+                <li>
+                    Can participate/perform in cultural programs.
+                </li>
+                <li>
+                    Registered members have voting rights at the elections.
+                </li>
+            </ul>
+            <!-- <p class=" text-center ">
+               <b> Helpline number :- +1 (512) 412-9841 [ Call or SMS ] </b>
+            </p> -->
+        </div>
+    </div>
+    <div *ngIf="memberValidity" class="col-md-12 pt-3 "  >
+        <div  class=" " style="text-align: center;" >Membership Expiration Date : {{this.member.expires | date:'d-MMM-yyyy '  }}</div>
+        <!-- <app-eventtickets></app-eventtickets> -->
+        <!-- <button (click)="addToCartobj()" class="btn-get-started w-100 mb-5 mt-2" > Renew Annual Membership</button> --> 
+ 
+        <!-- <div class=" text-center "  > -->
+             <!-- <button class="btn-get-userpage text-center "   routerLink="/tickets" >Saraswati Puja Tickets</button>  -->
+            <!-- <button *ngIf="addMoreKK"  class="btn-get-userpage text-center" routerLink="/addmoretickets" >Add Kavita Krishnamurti Tickets</button>  -->
+            <br />
+            <!-- Registration closed for Durga Puja.  -->
+            <!-- <button class="btn-get-userpage text-center "   routerLink="/ordertickets" >Register for Durga Puja 2021 Darshan & Buy Kavita Krishnamurti Concert Tickets</button> -->
+            
+
+            <!-- <app-durgapujatickets2023></app-durgapujatickets2023> -->
+        </div>
+
+    </div>
+
+    <!-- <div class="flex-center mb-3">
+        <a class="btn-get-started btn-get-started-dark text-center w-100 "  routerLink="/concert"   >Concert Tickets</a>             
+      </div> -->
+    
+
+
+

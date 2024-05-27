@@ -1,0 +1,30 @@
+[
+    {
+        "homeSliderImageId": "4",
+        "homeSliderImage": "1.jpg",
+        "imageLink": "./../../../assets/images/gallery/common/images-2021/1.jpg",
+        "tag": "",
+        "description": ""
+    },
+    
+    {
+        "homeSliderImageId": "2",
+        "homeSliderImage": "DP-2023",
+        "imageLink": "./../../../assets/images/stocks/2023/DP-2023.jpg",
+        "tag": "",
+        "description": ""
+    },{
+        "homeSliderImageId": "3",
+        "homeSliderImage": "bg_3.jpg",
+        "imageLink": "./../../../assets/images/gallery/common/picnic/picnic-2022.jpg",
+        "tag": "",
+        "description": ""
+    },
+    {
+        "homeSliderImageId": "1",
+        "name": "durgapuja-2023-3.jpg",
+        "imageLink": "./../../../assets/images/gallery/dp/durgapuja-2023-3.jpg",
+        "tag": "",
+        "description": ""
+    }
+]
