@@ -25,7 +25,7 @@
     },
     {
         "id": "3",
-        "img_url": "assets/images/ecm/IpsitaGhosh.jpg",
+        "img_url": "assets/images/ecm/Ipsita_Ghosh.jpg",
         "img_xurl": "",
         "designation":"Treasurer",
         "tag": "",
@@ -37,7 +37,7 @@
     },
     {
         "id": "4",
-        "img_url": "assets/images/ecm/SatarupaDas.jpg",
+        "img_url": "assets/images/ecm/Satarupa_Das.jpg",
         "img_xurl": "",
         "designation":"Cultural Secretary",
         "tag": "",
@@ -61,7 +61,7 @@
     },
     {
         "id": "6",
-        "img_url": "assets/images/ecm/ArnabChakraborty.jpg",
+        "img_url": "assets/images/ecm/Arnab_Chakraborty.jpg",
         "img_xurl": "",
         "designation":"IT Secretary",
         "tag": "",
@@ -73,12 +73,12 @@
     },
     {
         "id": "7",
-        "img_url": "assets/images/ecm/NayanBhattacharjee.jpg",
+        "img_url": "assets/images/ecm/Nayan_Bhattacharjee.jpg",
         "img_xurl": "",
         "designation":"Operations Secretary",
         "tag": "",
         "description": "",
-        "display_name": "Nayan Bhattacharya",
+        "display_name": "Nayan Bhattacharjee",
         "facebook": "https://www.facebook.com/nayan.bhattacharjee.7",
         "linkedin": "",
         "website":""
@@ -97,7 +97,7 @@
     },
     {
         "id": "9",
-        "img_url": "assets/images/ecm/TapasriChakraborty.jpg",
+        "img_url": "assets/images/ecm/Tapasri_Chakraborty.jpg",
         "img_xurl": "",
         "designation":"Communications/Magazine Secretary",
         "tag": "",

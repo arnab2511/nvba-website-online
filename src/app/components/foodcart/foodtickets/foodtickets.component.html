@@ -1,15 +1,10 @@
 <div class="wrapper" >
-    
-
-
-
 
     <section class="ftco-section bg-light">
         <div class="container">
             <div class="row text-center ">
                 <h1>Food Tickets</h1>
             </div>
-
 
                 <div id="earlyBirdWithoutcul" class="table-responsive mb-5 tickets">
 
@@ -24,7 +19,7 @@
                     <table class="table table-bordered table-hover" >
                         <thead>
                         <tr>
-                            <th scope="col"  >Items</th>
+                            <th scope="col">Items</th>
                             <th scope="col">Cost</th>
                             <th scope="col">Quantity</th>
                             <!-- <th scope="col">Add</th> -->
@@ -36,7 +31,7 @@
                         <tr *ngIf="i < 7">
                             <th><div class="smallOrangeHeader">{{item.name}}</div>{{item.description}}</th>
                             <td>$ {{item.price}}</td>
-                            <td><input type="number" [(ngModel)]="item.quantity" style="width:50px" min="0" max="10" ></td>
+                            <td><input type="number" pattern="[0-9]" [(ngModel)]="item.quantity" style="width:50px" min="0" max="20"></td>
                             <!-- <td> <button class="btn btn-warning" (click)="addToCartobj(item)" >Add to Cart</button></td> -->
                             <td  >$ {{item.price * item.quantity}}</td>
                         </tr>
@@ -58,15 +53,11 @@
                         <button [disabled]="addtoCartBtn === false" class="btn btn-warning" (click)="addToCartobj()" >Add to Cart</button>
                     </div>
                 
-                
                     <!-- <div>
                         {{ dataObject | json }}
                     </div> -->
                     
                 </div>
-                
-
-
 
         </div>
     </section>

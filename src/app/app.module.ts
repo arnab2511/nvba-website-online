@@ -80,6 +80,7 @@ import { QRCodeModule } from 'angularx-qrcode';
 import { Pastteam2023to24Component } from './pages/archive/pastteam2023to24/pastteam2023to24.component';
 import { Kobipronam2024Component } from './pages/kobipronam2024/kobipronam2024.component';
 import { TechadvisorComponent } from './pages/aboutus/techadvisor/techadvisor.component';
+import { Poilabaishak2024Component } from './pages/poilabaishak2024/poilabaishak2024.component';
 
 
 @NgModule({
@@ -133,7 +134,8 @@ import { TechadvisorComponent } from './pages/aboutus/techadvisor/techadvisor.co
     UserDetailsCheckComponent,
     Pastteam2023to24Component,
     Kobipronam2024Component,
-    TechadvisorComponent
+    TechadvisorComponent,
+    Poilabaishak2024Component
 
   ],
   imports: [

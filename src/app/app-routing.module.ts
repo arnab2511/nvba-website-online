@@ -40,6 +40,7 @@ import { ProposedconstitutionComponent } from './pages/archive/proposedconstitut
 import { UserDetailsCheckComponent } from './components/user-details-check/user-details-check.component';
 import { Pastteam2023to24Component } from './pages/archive/pastteam2023to24/pastteam2023to24.component';
 import { Kobipronam2024Component } from './pages/kobipronam2024/kobipronam2024.component';
+import { Poilabaishak2024Component } from './pages/poilabaishak2024/poilabaishak2024.component';
 import { TechadvisorComponent } from './pages/aboutus/techadvisor/techadvisor.component';
 
 
@@ -84,6 +85,7 @@ const routes: Routes = [
   // { path: 'tickets', component: EventticketsComponent, canActivate:[AuthGuard] },kobipronam
   { path: 'kobipronam', component: KobipronamComponent },
   { path: 'kobipronam2024', component: Kobipronam2024Component },
+  { path: 'poilabaishak2024', component: Poilabaishak2024Component },
   { path: 'foodcheckout', component: FoodcheckoutComponent },
   { path: 'picnic', component: PicnicComponent },
   { path: 'cares', component: CaresComponent },
