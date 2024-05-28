@@ -82,6 +82,7 @@ import { Kobipronam2024Component } from './pages/kobipronam2024/kobipronam2024.c
 import { TechadvisorComponent } from './pages/aboutus/techadvisor/techadvisor.component';
 import { Poilabaishak2024Component } from './pages/poilabaishak2024/poilabaishak2024.component';
 import { Picnic2024Component } from './pages/picnic2024/picnic2024.component';
+import { Durgapuja2024Component } from './pages/durgapuja2024/durgapuja2024.component';
 
 
 @NgModule({
@@ -137,7 +138,8 @@ import { Picnic2024Component } from './pages/picnic2024/picnic2024.component';
     Kobipronam2024Component,
     TechadvisorComponent,
     Poilabaishak2024Component,
-    Picnic2024Component
+    Picnic2024Component,
+    Durgapuja2024Component
 
   ],
   imports: [

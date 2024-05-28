@@ -19,6 +19,7 @@ import { CheckoutComponent } from './components/checkout/checkout.component';
 import { TicketsComponent } from './components/tickets/tickets.component';
 
 import { DurgapujaComponent } from './pages/durgapuja/durgapuja.component';
+import { Durgapuja2024Component } from './pages/durgapuja2024/durgapuja2024.component';
 import { GalleryComponent } from './pages/gallery/gallery/gallery.component';
 import { Pastteam2020To21Component } from './pages/archive/pastteam2020-21/pastteam2020-21.component';
 import { MagazinesComponent } from './pages/archive/magazines/magazines.component';
@@ -91,6 +92,7 @@ const routes: Routes = [
   { path: 'picnic', component: PicnicComponent },
   { path: 'picnic2024', component: Picnic2024Component },
   { path: 'cares', component: CaresComponent },
+  { path: "durgapuja2024", component: Durgapuja2024Component, pathMatch: 'full'  },
   
   { path: 'proposedconstitution', component:ProposedconstitutionComponent, canActivate:[AuthGuard] },
   { path: 'user-details-check/:id', component: UserDetailsCheckComponent },

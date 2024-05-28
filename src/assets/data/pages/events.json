@@ -26,6 +26,19 @@
         "mapUrl": "https://www.google.com/maps/dir/38.8759552,-77.2243456/Shelter+8+at+Bull+Run,+7700+Bull+Run+Dr,+Centreville,+VA+20121/"
     },
     { 
+        "eventId":3,
+        "eventType": "current",
+        "eventName": "Sarbojanin Durgotsob",
+        "eventDate": "October 11th, 2024 - October 13th, 2024",
+        "eventEndDate": "October 13th, 2024",
+        "eventImage": "./../../../assets/images/stocks/2023/durga-ascha.jpg",
+        "timming": "October 12th - 6 pm to 11 pm. October 12th and 13th - 9 am to 11 pm.",
+        "venue": "TBD",
+        "pageLink": "/durgapuja2024",
+        "description": "Come join us to celebrate our most auspicious Bengali event of the year.",
+        "mapUrl": ""
+    },
+    { 
         "eventId":11,
         "eventType": "past",
         "eventName": "Poila Boisakh",
@@ -51,7 +64,6 @@
         "description": "Saraswati Puja",
         "mapUrl": "https://goo.gl/maps/iUQvcV6htit6HW3e8"
     },
-   
     { 
         "eventId":231,
         "eventType": "past",
@@ -65,7 +77,6 @@
         "description": "Come join us to celebrate our most auspicious Bengali event of the year.",
         "mapUrl": ""
     },
-   
     { 
         "eventId":2311,
         "eventType": "past",
@@ -133,7 +144,6 @@
         "description": "Come join us to celebrate our new year.",
         "mapUrl": "https://goo.gl/maps/oK7kDeWN1RjXAZQRA"
     },
-    
     { 
         "eventId":4,
         "eventType": "past",
