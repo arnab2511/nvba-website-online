@@ -6,11 +6,24 @@
         "eventDate": "June 22nd, 2024",
         "eventEndDate": "June 22nd, 2024",
         "eventImage": "./../../../assets/images/gallery/common/kobipronam.jpg",
-        "timming": "6-9:30 PM",
+        "timming": "6:00 PM - 9:30 PM",
         "venue": "Mercer Middle School, 42149 Greenstone Dr, Aldie, VA 20105",
         "pageLink": "/kobipronam2024",
         "description": "Tribute for Kobi Pronam. As Bengalis we are always very proud of this unique event in honor of the poets who form the cornerstone of our Bengali culture.",
         "mapUrl": "https://www.google.com/maps/dir//Mercer+Middle+School,+42149+Greenstone+Dr,+Aldie,+VA+20105/@38.9247839,-77.549134,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89b641c3ba822e23:0xf3d318eb03789316!2m2!1d-77.5469453!2d38.9247839!3e0"
+    },
+    { 
+        "eventId":2,
+        "eventType": "current",
+        "eventName": "Annual Picnic",
+        "eventDate": "June 29th, 2024",
+        "eventEndDate": "June 29th, 2024",
+        "eventImage": "./../../../assets/images/gallery/picnic2024/Bullrun_Shelter8.jpg",
+        "timming": "10:00 AM - 5:00 PM",
+        "venue": "Shelter 8 at Bull Run Park",
+        "pageLink": "/picnic2024",
+        "description": "Our annual picnic, where all our members were invite to a free picnic event for a great day of food, fun and friendship..",
+        "mapUrl": "https://www.google.com/maps/dir/38.8759552,-77.2243456/Shelter+8+at+Bull+Run,+7700+Bull+Run+Dr,+Centreville,+VA+20121/"
     },
     { 
         "eventId":11,
@@ -19,7 +32,7 @@
         "eventDate": "April 13th, 2024",
         "eventEndDate": "April 13th, 2024",
         "eventImage": "./../../../assets/images/gallery/common/newyear-2024.png",
-        "timming": "April 13th - 10 am to 5pm",
+        "timming": "10:00 AM - 5:00 PM",
         "venue": "Washington Kali Temple",
         "pageLink": "/poilabaishak2024",
         "description": "Come join us to celebrate our new year. Entry: FREE ",
@@ -32,7 +45,7 @@
         "eventDate": "February 10th, 2024 - Saturday",
         "eventEndDate": "February 10th, 2024 - Saturday",
         "eventImage": "./../../../assets/images/stocks/saraswati-2021.jpg",
-        "timming": "11 am - 10 pm",
+        "timming": "11:00 AM - 10:00 PM",
         "venue": "Mercer Middle School, 42149 Greenstone Dr, Aldie, VA 20105",
         "pageLink": "/saraswatipuja",
         "description": "Saraswati Puja",
@@ -67,7 +80,6 @@
         "mapUrl": "https://www.google.com/maps/place/Richard+J+Ernst+Community+Cultural+Center/@38.8333994,-77.2389877,17z/data=!3m1!4b1!4m6!3m5!1s0x89b64cf9a4b7d595:0x736872a31ef0fe0b!8m2!3d38.8333994!4d-77.236799!16s%2Fg%2F1tfb7fvw?entry=ttu",
         "externalLink":"https://breakthetide.org/"
     },
-    
     { 
         "eventId":13,
         "eventType": "past",
@@ -75,7 +87,7 @@
         "eventDate": "June 17th, 2023",
         "eventEndDate": "June 17th, 2023",
         "eventImage": "./../../../assets/images/gallery/common/picnic/picnic-2022.jpg",
-        "timming": "June 17th from 10:00AM to 4:00PM",
+        "timming": "10:00 AM - 4:00 PM",
         "venue": "Shelter 8 at Bull Run ",
         "pageLink": "/picnic",
         "description": "Our annual picnic, where all our members were invite to a free picnic event for a great day of food, fun and friendship..",
@@ -88,7 +100,7 @@
         "eventDate": "June 10th, 2023",
         "eventEndDate": "June 10th, 2023",
         "eventImage": "./../../../assets/images/gallery/common/kobipronam.jpg",
-        "timming": "7-10 PM",
+        "timming": "7:00 PM - 10:00 PM",
         "venue": "Mercer Middle School, 42149 Greenstone Dr, Aldie, VA 20105",
         "pageLink": "/kobipronam",
         "description": "Tribute for Kobi Pronam. As Bengalis we are always very proud of this unique event in honor of the poets who form the cornerstone of our Bengali culture.",
@@ -115,7 +127,7 @@
         "eventDate": "April 15th, 2023",
         "eventEndDate": "April 15th, 2023",
         "eventImage": "./../../../assets/images/gallery/common/poila-boisakh.jpg",
-        "timming": "April 15th - 10 am to 5pm",
+        "timming": "10:00 AM - 5:00 PM",
         "venue": "Washington Kali Temple",
         "pageLink": "",
         "description": "Come join us to celebrate our new year.",
@@ -129,7 +141,7 @@
         "eventDate": "January 28th, 2023 - Saturday",
         "eventEndDate": "January 28th, 2023 - Saturday",
         "eventImage": "./../../../assets/images/stocks/saraswati-2021.jpg",
-        "timming": "11 am - 5 pm",
+        "timming": "11:00 AM - 5:00 PM",
         "venue": "Mercer Middle School, 42149 Greenstone Dr, Aldie, VA 20105",
         "pageLink": "/saraswatipuja",
         "description": "Saraswati Puja   ",
@@ -142,7 +154,7 @@
         "eventDate": "December 4th, 2022 - Sunday",
         "eventEndDate": "December 4th, 2022 - Sunday",
         "eventImage": "./../../../assets/images/stocks/firefighters.jpg",
-        "timming": "6 am - 8 am",
+        "timming": "6:00 AM - 8:00 AM",
         "venue": "Northern Virginia",
         "pageLink": "/home",
         "description": "Break fast with Firefighter  ",
@@ -155,7 +167,7 @@
         "eventDate": "December 3th, 2022 - Saturday",
         "eventEndDate": "December 3th, 2022 - Saturday",
         "eventImage": "./../../../assets/images/stocks/agm.jpg",
-        "timming": "4 pm - 6 pm",
+        "timming": "4:00 PM - 6:00 PM",
         "venue": "Chantilly Regional Library  4000 Stringfellow Rd, Chantilly, VA 20151",
         "pageLink": "/agm",
         "description": "Your participation is highly appreciated.",
@@ -174,8 +186,5 @@
         "description": "Come join us to celebrate our most auspicious Bengali event of the year.",
         "mapUrl": ""
     }
-    
-    
-
     
 ]

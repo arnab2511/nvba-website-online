@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PastteamsComponent } from './pastteams.component';
+import { Picnic2024Component } from './picnic2024.component';
 
-describe('PastteamsComponent', () => {
-  let component: PastteamsComponent;
-  let fixture: ComponentFixture<PastteamsComponent>;
+describe('Picnic2024Component', () => {
+  let component: Picnic2024Component;
+  let fixture: ComponentFixture<Picnic2024Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PastteamsComponent ]
+      declarations: [ Picnic2024Component ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PastteamsComponent);
+    fixture = TestBed.createComponent(Picnic2024Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

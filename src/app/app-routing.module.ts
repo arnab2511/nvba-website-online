@@ -20,7 +20,7 @@ import { TicketsComponent } from './components/tickets/tickets.component';
 
 import { DurgapujaComponent } from './pages/durgapuja/durgapuja.component';
 import { GalleryComponent } from './pages/gallery/gallery/gallery.component';
-import { PastteamsComponent } from './pages/archive/pastteams/pastteams.component';
+import { Pastteam2020To21Component } from './pages/archive/pastteam2020-21/pastteam2020-21.component';
 import { MagazinesComponent } from './pages/archive/magazines/magazines.component';
 import { ReportsComponent } from './components/admin/reports/reports.component';
 import { AlldetailsComponent } from './components/admin/alldetails/alldetails.component';
@@ -38,9 +38,10 @@ import { CaresComponent } from './pages/cares/cares.component';
 
 import { ProposedconstitutionComponent } from './pages/archive/proposedconstitution/proposedconstitution.component';
 import { UserDetailsCheckComponent } from './components/user-details-check/user-details-check.component';
-import { Pastteam2023to24Component } from './pages/archive/pastteam2023to24/pastteam2023to24.component';
+import { Pastteam2022To23Component } from './pages/archive/pastteam2022-23/pastteam2022-23.component';
 import { Kobipronam2024Component } from './pages/kobipronam2024/kobipronam2024.component';
 import { Poilabaishak2024Component } from './pages/poilabaishak2024/poilabaishak2024.component';
+import { Picnic2024Component } from './pages/picnic2024/picnic2024.component';
 import { TechadvisorComponent } from './pages/aboutus/techadvisor/techadvisor.component';
 
 
@@ -57,8 +58,8 @@ const routes: Routes = [
   { path: "saraswatipuja", component: SaraswatiComponent, pathMatch: 'full'  },
   { path: "gallery", component: GalleryComponent, pathMatch: 'full'  },
   { path: "magazines", component: MagazinesComponent, pathMatch: 'full'  },
-  { path: "pastteam2020", component: PastteamsComponent, pathMatch: 'full'  },
-  { path: "pastteam2022", component: Pastteam2023to24Component, pathMatch: 'full'  },
+  { path: "pastteam2020", component: Pastteam2020To21Component, pathMatch: 'full'  },
+  { path: "pastteam2022", component: Pastteam2022To23Component, pathMatch: 'full'  },
   { path: "agm", component: AgmComponent, pathMatch: 'full'  },
   { path: 'frompresidentsdesk', component: PresidentsdeskComponent },
   { path: 'about', component: TeamComponent },
@@ -88,6 +89,7 @@ const routes: Routes = [
   { path: 'poilabaishak2024', component: Poilabaishak2024Component },
   { path: 'foodcheckout', component: FoodcheckoutComponent },
   { path: 'picnic', component: PicnicComponent },
+  { path: 'picnic2024', component: Picnic2024Component },
   { path: 'cares', component: CaresComponent },
   
   { path: 'proposedconstitution', component:ProposedconstitutionComponent, canActivate:[AuthGuard] },
