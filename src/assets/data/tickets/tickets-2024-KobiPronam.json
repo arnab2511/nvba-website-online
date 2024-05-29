@@ -1,7 +1,7 @@
 [
       {
-        "name": "Snacks",
-        "description": "Veg Chop",
+        "name": "Veg Chop",
+        "description": "Snacks",
         "quantity": 0,
         "price": 1.5,
         "tax": 0,
@@ -9,8 +9,8 @@
         "currency": "USD" 
       },
       {
-        "name": "Snacks",
-        "description": "Veg Ghugni",
+        "name": "Veg Ghugni",
+        "description": "Snacks",
         "quantity": 0,
         "price": 2,
         "tax": 0,
@@ -36,8 +36,8 @@
         "currency": "USD" 
       },
       {
-        "name": "Non Veg Dinner",
-        "description": "Regular - Non-Veg Chicken Biryani",
+        "name": "Regular - Non-Veg Chicken Biryani",
+        "description": "Non Veg Dinner",
         "quantity": 0,
         "price": 12,
         "tax": 0,
@@ -45,8 +45,8 @@
         "currency": "USD" 
       },
       {
-        "name": "Veg Dinner",
-        "description": "Regular - Veg Biryani",
+        "name": "Regular - Veg Biryani",
+        "description": "Veg Dinner",
         "quantity": 0,
         "price": 10,
         "tax": 0,
