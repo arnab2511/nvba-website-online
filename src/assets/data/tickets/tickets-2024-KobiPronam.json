@@ -3,7 +3,7 @@
         "name": "Snacks",
         "description": "Veg Chop",
         "quantity": 0,
-        "price": 2,
+        "price": 1.5,
         "tax": 0,
         "sku": "KP2024VEGCHOP",
         "currency": "USD" 
@@ -12,7 +12,7 @@
         "name": "Snacks",
         "description": "Veg Ghugni",
         "quantity": 0,
-        "price": 3,
+        "price": 2,
         "tax": 0,
         "sku": "KP2024GHUGNI",
         "currency": "USD" 
