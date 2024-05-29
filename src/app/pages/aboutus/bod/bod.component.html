@@ -23,7 +23,8 @@
                                 <p>{{member.designation}}</p>
                                 </div>
                             <div class="text">
-                                <p *ngIf="member.facebook?member.facebook:member.linkedin" ><a target="_blank" href="{{member.facebook?member.facebook:member.linkedin}}">Social link to connect</a></p>
+                                <p *ngIf="member.facebook?member.facebook:member.email" ><a target="_blank" href="{{member.facebook?member.facebook:member.email}}">Email</a></p>
+                                <!-- <p *ngIf="member.facebook?member.facebook:member.linkedin" ><a target="_blank" href="{{member.facebook?member.facebook:member.linkedin}}">Social link to connect</a></p> -->
                             </div>
                         </div>
                     </div>

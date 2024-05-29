@@ -7,7 +7,8 @@
         "tag": "",
         "description": "0",
         "display_name": "Paul Upadhyay",
-        "facebook": "https://www.facebook.com/paul.upadhyay",
+        "facebook": "",
+        "email":"mailto:panditjee@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
   },
@@ -20,6 +21,7 @@
         "description": "0",
         "display_name": "Debasis Basak",
         "facebook": "",
+        "email":"mailto:dbasak@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     },
@@ -32,6 +34,7 @@
         "description": "0",
         "display_name": "Suparna Ray",
         "facebook": "",
+        "email":"mailto:suparna@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     }
