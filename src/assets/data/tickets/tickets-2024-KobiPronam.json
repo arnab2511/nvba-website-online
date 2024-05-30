@@ -1,9 +1,9 @@
 [
       {
-        "name": "Veg Chop",
+        "name": "Veg Chop(2 Pcs)",
         "description": "Snacks",
         "quantity": 0,
-        "price": 1.5,
+        "price": 3,
         "tax": 0,
         "sku": "KP2024VEGCHOP",
         "currency": "USD" 
@@ -39,7 +39,7 @@
         "name": "Regular - Non-Veg Chicken Biryani",
         "description": "Non Veg Dinner",
         "quantity": 0,
-        "price": 12,
+        "price": 10,
         "tax": 0,
         "sku": "KP2024NONVEG",
         "currency": "USD" 
@@ -48,7 +48,7 @@
         "name": "Regular - Veg Biryani",
         "description": "Veg Dinner",
         "quantity": 0,
-        "price": 10,
+        "price": 8,
         "tax": 0,
         "sku": "KP2024VEG",
         "currency": "USD" 
