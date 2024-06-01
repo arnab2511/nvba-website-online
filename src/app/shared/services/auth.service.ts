@@ -197,10 +197,4 @@ export class AuthService  {
       this.member;
   }
 
-
-
 }
-
-
-
-
