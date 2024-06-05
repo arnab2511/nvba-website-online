@@ -117,7 +117,7 @@ export class AlldetailsComponent implements OnInit {
 
   user: { index:number; email: string; firstname: string; lastname: string; expires: string; phone:string} | undefined;
 
-   kp2024FoodOurchaseDetails: { payer_id:string; email: string; firstname: string; lastname: string; payment_method: string; payment_status:string;
+   kp2024FoodOurchaseDetails: { purchase_date_time:string;payer_id:string; email: string; firstname: string; lastname: string; payment_method: string; payment_status:string;total:number;
     vegchopcount:number;vegghugnicount:number;teacount:number;colddrinkscount:number;vegbiriyanicount:number;nonvegbiriyanicount:number
 } | undefined;
 
@@ -201,6 +201,7 @@ export class AlldetailsComponent implements OnInit {
 
   kp2024foodPurchasecolumnDefs = [
     // { field: 'payer_id',  sortable: true, resizable: true,  cellClass: 'id-class center' },
+		{ field: 'purchase_date_time', headerName:'Purchase Date/Time',sortable: true, resizable: false, filter: true  },
 		{ field: 'firstname', sortable: true, resizable: false, filter: true  },
 		{ field: 'lastname', sortable: true, resizable: false, filter: true },
     // { field: 'email', sortable: true, resizable: true, filter: true },
@@ -210,6 +211,7 @@ export class AlldetailsComponent implements OnInit {
     { field: 'colddrinkscount', headerName:'Cold Drinks', sortable: true, resizable: false },
     { field: 'vegbiriyanicount', headerName:'Veg Biriyani', sortable: true, resizable: false },
     { field: 'nonvegbiriyanicount', headerName:'Non-Veg Biriyani', sortable: true, resizable: false },
+    { field: 'total', sortable: true, resizable: true, filter: false },
     { field: 'payment_method', sortable: true, resizable: true, filter: false },
     { field: 'payment_status', headerName:'Status', sortable: true, resizable: false },
 	];
@@ -321,6 +323,13 @@ export class AlldetailsComponent implements OnInit {
       [...this.foodTickets].forEach( ct =>{
         console.log(' Each row KP2024');
 
+        this.vegchopcount = 0;
+        this.vegghugnicount = 0;
+        this.teacount = 0;
+        this.colddrinkscount = 0;
+        this.vegbiriyanicount = 0;
+        this.nonvegbiriyanicount = 0;
+
         console.log(ct.transactions[0].item_list.items[0].quantity );
         [...ct.transactions[0].item_list.items].forEach( item =>{
 
@@ -360,11 +369,13 @@ export class AlldetailsComponent implements OnInit {
 
        this.kp2024FoodOurchaseDetails = {
         payer_id : ct.payer.payer_info.payer_id,
+        purchase_date_time: ct.create_time,
         email : ct.payer.payer_info.email,
         firstname : ct.payer.payer_info.first_name,
         lastname : ct.payer.payer_info.last_name,
         payment_method : ct.payer.payment_method,
         payment_status : ct.state,
+        total : ct.transactions[0].amount.total,
         vegchopcount : this.vegchopcount,
         vegghugnicount:this.vegghugnicount,
         teacount:this.teacount,
