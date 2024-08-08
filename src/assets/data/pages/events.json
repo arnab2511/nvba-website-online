@@ -1,7 +1,7 @@
 [
     { 
         "eventId":1,
-        "eventType": "current",
+        "eventType": "past",
         "eventName": "Kobi Pronam",
         "eventDate": "June 22nd, 2024",
         "eventEndDate": "June 22nd, 2024",
@@ -14,7 +14,7 @@
     },
     { 
         "eventId":2,
-        "eventType": "current",
+        "eventType": "past",
         "eventName": "Annual Picnic",
         "eventDate": "June 29th, 2024",
         "eventEndDate": "June 29th, 2024",
@@ -32,8 +32,8 @@
         "eventDate": "October 11th, 2024 - October 13th, 2024",
         "eventEndDate": "October 13th, 2024",
         "eventImage": "./../../../assets/images/stocks/DP-2020.jpg",
-        "timming": "October 11th - 6 pm to 11 pm. October 12th and 13th - 9 am to 11 pm.",
-        "venue": "TBD",
+        "timming": "October 11th - 6 pm to 10 pm. October 12th and 13th - 10 am to 10 pm.",
+        "venue": "Freedom High School, 25450 Riding Center Dr, Chantilly, VA 20152",
         "pageLink": "/durgapuja2024",
         "description": "Come join us to celebrate our most auspicious Bengali event of the year.",
         "mapUrl": ""
