@@ -220,10 +220,10 @@ p{
 }
 
 
-// Slide Show DP page
+// Slide Show DP 2022 page
 
-.cb-slideshow,
-.cb-slideshow:after {
+.cb-slideshow-2022,
+.cb-slideshow-2022:after {
     position: relative;
     width: 100%;
     height: 100%;
@@ -231,20 +231,20 @@ p{
     left: 0px;
     z-index: 0;
 }
-.cb-slideshow:after {
+.cb-slideshow-2022:after {
     content: '';
-    background: transparent url(./assets/images/gallery/dp/pattern.png) repeat top left;
+    background: transparent url(./assets/images/gallery/dp2022/pattern.png) repeat top left;
 }
 .cb-slideshow-overlay{
 	content: '';
-    background: transparent url(./assets/images/gallery/dp/pattern.png) repeat top left;
+    background: transparent url(./assets/images/gallery/dp2022/pattern.png) repeat top left;
 	
 	overflow: hidden;
 	li{
 		list-style:none;
 	}
 }
-.cb-slideshow li span {
+.cb-slideshow-2022 li span {
 	filter: grayscale(10%) opacity(95%);
     width: 100%;
     height: 100%;
@@ -263,7 +263,7 @@ p{
     -ms-animation: imageAnimation 36s linear infinite 0s;
     animation: imageAnimation 36s linear infinite 0s;
 }
-.cb-slideshow li div {
+.cb-slideshow-2022 li div {
     z-index: 1000;
     position: absolute;
     bottom: 70px;
@@ -277,7 +277,7 @@ p{
     -ms-animation: titleAnimation 36s linear infinite 0s;
     animation: titleAnimation 36s linear infinite 0s;
 }
-.cb-slideshow li div h3 {
+.cb-slideshow-2022 li div h3 {
     font-family: $font-primary;
 	font-weight: 300;
     font-size: 3rem;
@@ -287,82 +287,377 @@ p{
 	text-shadow: 3px 2px 4px rgba(0,0,0,0.83);
 }
 
-.cb-slideshow li:nth-child(1) span { background-image: url(./assets/images/gallery/dp/nvba-DurgaPuja-Poster-1.jpg) }
-.cb-slideshow li:nth-child(2) span {
-    background-image: url(./assets/images/gallery/dp/durgapuja-2023-5.jpg);
+.cb-slideshow-2022 li:nth-child(1) span { background-image: url(./assets/images/gallery/dp2022/durgapuja-2022-1.jpg) }
+.cb-slideshow-2022 li:nth-child(2) span {
+    background-image: url(./assets/images/gallery/dp2022/durgapuja-2022-2.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
     -ms-animation-delay: 6s;
     animation-delay: 6s;
 }
-.cb-slideshow li:nth-child(3) span {
-    background-image: url(./assets/images/gallery/dp/durgapuja-2022-2.jpg);
+.cb-slideshow-2022 li:nth-child(3) span {
+    background-image: url(./assets/images/gallery/dp2022/durgapuja-2022-3.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
     -ms-animation-delay: 12s;
     animation-delay: 12s;
 }
-.cb-slideshow li:nth-child(4) span {
-    background-image: url(./assets/images/gallery/dp/durgapuja-2023-4.jpg);
+.cb-slideshow-2022 li:nth-child(4) span {
+    background-image: url(./assets/images/gallery/dp2022/durgapuja-2022-4.jpg);
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
     -ms-animation-delay: 18s;
     animation-delay: 18s;
 }
-.cb-slideshow li:nth-child(5) span {
-    background-image: url(./assets/images/gallery/dp/durgapuja-2023-1.jpg);
+.cb-slideshow-2022 li:nth-child(5) span {
+    background-image: url(./assets/images/gallery/dp2022/durgapuja-2022-5.jpg);
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
     -ms-animation-delay: 24s;
     animation-delay: 24s;
 }
-.cb-slideshow li:nth-child(6) span {
-    background-image: url(./assets/images/gallery/dp/durgapuja-2023-4.jpg);
+.cb-slideshow-2022 li:nth-child(6) span {
+    background-image: url(./assets/images/gallery/dp2022/durgapuja-2022-6.jpg);
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
     animation-delay: 30s;
 }
-.cb-slideshow li:nth-child(2) div {
+.cb-slideshow-2022 li:nth-child(2) div {
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
     -ms-animation-delay: 6s;
     animation-delay: 6s;
 }
-.cb-slideshow li:nth-child(3) div {
+.cb-slideshow-2022 li:nth-child(3) div {
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
     -ms-animation-delay: 12s;
     animation-delay: 12s;
 }
-.cb-slideshow li:nth-child(4) div {
+.cb-slideshow-2022 li:nth-child(4) div {
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
     -ms-animation-delay: 18s;
     animation-delay: 18s;
 }
-.cb-slideshow li:nth-child(5) div {
+.cb-slideshow-2022 li:nth-child(5) div {
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
     -ms-animation-delay: 24s;
     animation-delay: 24s;
 }
-.cb-slideshow li:nth-child(6) div {
+.cb-slideshow-2022 li:nth-child(6) div {
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
     animation-delay: 30s;
 }
+
+
+
+// Slide Show DP 2023 page
+
+.cb-slideshow-2023,
+.cb-slideshow-2023:after {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.cb-slideshow-2023:after {
+    content: '';
+    background: transparent url(./assets/images/gallery/dp2023/pattern.png) repeat top left;
+}
+.cb-slideshow-overlay{
+	content: '';
+    background: transparent url(./assets/images/gallery/dp2023/pattern.png) repeat top left;
+	
+	overflow: hidden;
+	li{
+		list-style:none;
+	}
+}
+.cb-slideshow-2023 li span {
+	filter: grayscale(10%) opacity(95%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+	-webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 36s linear infinite 0s;
+    -moz-animation: imageAnimation 36s linear infinite 0s;
+    -o-animation: imageAnimation 36s linear infinite 0s;
+    -ms-animation: imageAnimation 36s linear infinite 0s;
+    animation: imageAnimation 36s linear infinite 0s;
+}
+.cb-slideshow-2023 li div {
+    z-index: 1000;
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -webkit-animation: titleAnimation 36s linear infinite 0s;
+    -moz-animation: titleAnimation 36s linear infinite 0s;
+    -o-animation: titleAnimation 36s linear infinite 0s;
+    -ms-animation: titleAnimation 36s linear infinite 0s;
+    animation: titleAnimation 36s linear infinite 0s;
+}
+.cb-slideshow-2023 li div h3 {
+    font-family: $font-primary;
+	font-weight: 300;
+    font-size: 3rem;
+    padding: 0 20px;
+    line-height: 4rem;
+    color: rgba(255,255,255,0.95);
+	text-shadow: 3px 2px 4px rgba(0,0,0,0.83);
+}
+
+.cb-slideshow-2023 li:nth-child(1) span { background-image: url(./assets/images/gallery/dp2023/durgapuja-2023-1.jpg) }
+.cb-slideshow-2023 li:nth-child(2) span {
+    background-image: url(./assets/images/gallery/dp2023/durgapuja-2023-2.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.cb-slideshow-2023 li:nth-child(3) span {
+    background-image: url(./assets/images/gallery/dp2023/durgapuja-2023-3.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+.cb-slideshow-2023 li:nth-child(4) span {
+    background-image: url(./assets/images/gallery/dp2023/durgapuja-2023-4.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.cb-slideshow-2023 li:nth-child(5) span {
+    background-image: url(./assets/images/gallery/dp2023/durgapuja-2023-5.jpg);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+.cb-slideshow-2023 li:nth-child(6) span {
+    background-image: url(./assets/images/gallery/dp2023/durgapuja-2023-6.jpg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}
+.cb-slideshow-2023 li:nth-child(2) div {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.cb-slideshow-2023 li:nth-child(3) div {
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+.cb-slideshow-2023 li:nth-child(4) div {
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.cb-slideshow-2023 li:nth-child(5) div {
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+.cb-slideshow-2023 li:nth-child(6) div {
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}
+
+
+
+// Slide Show DP 2024 page
+
+.cb-slideshow-2024,
+.cb-slideshow-2024:after {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.cb-slideshow-2024:after {
+    content: '';
+    background: transparent url(./assets/images/gallery/dp2024/pattern.png) repeat top left;
+}
+.cb-slideshow-overlay{
+	content: '';
+    background: transparent url(./assets/images/gallery/dp2024/pattern.png) repeat top left;
+	
+	overflow: hidden;
+	li{
+		list-style:none;
+	}
+}
+.cb-slideshow-2024 li span {
+	filter: grayscale(10%) opacity(95%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+	-webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 36s linear infinite 0s;
+    -moz-animation: imageAnimation 36s linear infinite 0s;
+    -o-animation: imageAnimation 36s linear infinite 0s;
+    -ms-animation: imageAnimation 36s linear infinite 0s;
+    animation: imageAnimation 36s linear infinite 0s;
+}
+.cb-slideshow-2024 li div {
+    z-index: 1000;
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -webkit-animation: titleAnimation 36s linear infinite 0s;
+    -moz-animation: titleAnimation 36s linear infinite 0s;
+    -o-animation: titleAnimation 36s linear infinite 0s;
+    -ms-animation: titleAnimation 36s linear infinite 0s;
+    animation: titleAnimation 36s linear infinite 0s;
+}
+.cb-slideshow-2024 li div h3 {
+    font-family: $font-primary;
+	font-weight: 300;
+    font-size: 3rem;
+    padding: 0 20px;
+    line-height: 4rem;
+    color: rgba(255,255,255,0.95);
+	text-shadow: 3px 2px 4px rgba(0,0,0,0.83);
+}
+
+.cb-slideshow-2024 li:nth-child(1) span { background-image: url(./assets/images/gallery/dp2024/durgapuja-2024-1.jpg) }
+.cb-slideshow-2024 li:nth-child(2) span {
+    background-image: url(./assets/images/gallery/dp2024/durgapuja-2024-2.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.cb-slideshow-2024 li:nth-child(3) span {
+    background-image: url(./assets/images/gallery/dp2024/durgapuja-2024-3.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+.cb-slideshow-2024 li:nth-child(4) span {
+    background-image: url(./assets/images/gallery/dp2024/durgapuja-2024-4.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.cb-slideshow-2024 li:nth-child(5) span {
+    background-image: url(./assets/images/gallery/dp2024/durgapuja-2024-5.jpg);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+.cb-slideshow-2024 li:nth-child(6) span {
+    background-image: url(./assets/images/gallery/dp2024/durgapuja-2024-6.jpg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}
+.cb-slideshow-2024 li:nth-child(2) div {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.cb-slideshow-2024 li:nth-child(3) div {
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+.cb-slideshow-2024 li:nth-child(4) div {
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.cb-slideshow-2024 li:nth-child(5) div {
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+.cb-slideshow-2024 li:nth-child(6) div {
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}
+
+
+
 @-webkit-keyframes imageAnimation { 
 	0% {
 	    opacity: 0;
@@ -604,4 +899,3 @@ p{
 .green{
 	color: #008000;
 }
-

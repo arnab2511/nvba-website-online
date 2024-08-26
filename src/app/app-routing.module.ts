@@ -18,7 +18,8 @@ import { AuthGuard } from './shared/guard/auth.guard';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { TicketsComponent } from './components/tickets/tickets.component';
 
-import { DurgapujaComponent } from './pages/durgapuja/durgapuja.component';
+import { Durgapuja2022Component } from './pages/durgapuja2022/durgapuja2022.component';
+import { Durgapuja2023Component } from './pages/durgapuja2023/durgapuja2023.component';
 import { Durgapuja2024Component } from './pages/durgapuja2024/durgapuja2024.component';
 import { GalleryComponent } from './pages/gallery/gallery/gallery.component';
 import { Pastteam2020To21Component } from './pages/archive/pastteam2020-21/pastteam2020-21.component';
@@ -55,7 +56,8 @@ const routes: Routes = [
   { path: "constitution", component: ConstitutionComponent, pathMatch: 'full'  },
   { path: "eventsguidelines", component: EventsguidelinesComponent, pathMatch: 'full'  },
   { path: "contactus", component: ContactusComponent, pathMatch: 'full'  },
-  { path: "durgapuja", component: DurgapujaComponent, pathMatch: 'full'  },
+  { path: "durgapuja2022", component: Durgapuja2022Component, pathMatch: 'full'  },
+  { path: "durgapuja2023", component: Durgapuja2023Component, pathMatch: 'full'  },
   { path: "saraswatipuja", component: SaraswatiComponent, pathMatch: 'full'  },
   { path: "gallery", component: GalleryComponent, pathMatch: 'full'  },
   { path: "magazines", component: MagazinesComponent, pathMatch: 'full'  },
