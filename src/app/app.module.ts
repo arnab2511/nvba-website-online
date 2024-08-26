@@ -47,7 +47,8 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 
 import { NgxPayPalModule } from 'ngx-paypal';
 import { CartticketsComponent } from './helper/dashboard/carttickets/carttickets.component';
-import { DurgapujaComponent } from './pages/durgapuja/durgapuja.component';
+import { Durgapuja2022Component } from './pages/durgapuja2022/durgapuja2022.component';
+import { Durgapuja2023Component } from './pages/durgapuja2023/durgapuja2023.component';
 import { HistoryComponent } from './pages/aboutus/history/history.component';
 import { GalleryComponent } from './pages/gallery/gallery/gallery.component';
 import { Pastteam2020To21Component } from './pages/archive/pastteam2020-21/pastteam2020-21.component';
@@ -109,7 +110,8 @@ import { Durgapuja2024Component } from './pages/durgapuja2024/durgapuja2024.comp
     CheckoutComponent,
     ProfileComponent,
     CartticketsComponent,
-    DurgapujaComponent,
+    Durgapuja2022Component,
+    Durgapuja2023Component,
     HistoryComponent,
     GalleryComponent,
     Pastteam2020To21Component,
