@@ -2,7 +2,7 @@
     { 
         "eventId":1,
         "eventType": "past",
-        "eventName": "Kobi Pronam",
+        "eventName": "Kobi Pronam 2024",
         "eventDate": "June 22nd, 2024",
         "eventEndDate": "June 22nd, 2024",
         "eventImage": "./../../../assets/images/stocks/kbp-2022.png",
@@ -15,7 +15,7 @@
     { 
         "eventId":2,
         "eventType": "past",
-        "eventName": "Annual Picnic",
+        "eventName": "Annual Picnic 2024",
         "eventDate": "June 29th, 2024",
         "eventEndDate": "June 29th, 2024",
         "eventImage": "./../../../assets/images/gallery/picnic2024/picnic_2024_group_photo.jpg",
@@ -28,7 +28,7 @@
     { 
         "eventId":3,
         "eventType": "current",
-        "eventName": "Sarbojanin Durgotsob",
+        "eventName": "Sarbojanin Durgotsob 2024",
         "eventDate": "October 11th, 2024 - October 13th, 2024",
         "eventEndDate": "October 13th, 2024",
         "eventImage": "./../../../assets/images/stocks/DP-2020.jpg",
@@ -41,7 +41,7 @@
     { 
         "eventId":4,
         "eventType": "past",
-        "eventName": "Poila Boisakh",
+        "eventName": "Poila Boisakh 2024",
         "eventDate": "April 13th, 2024",
         "eventEndDate": "April 13th, 2024",
         "eventImage": "./../../../assets/images/gallery/common/newyear-2024.png",
@@ -54,7 +54,7 @@
     { 
         "eventId":5,
         "eventType": "past",
-        "eventName": "Saraswati Puja",
+        "eventName": "Saraswati Puja 2024",
         "eventDate": "February 10th, 2024 - Saturday",
         "eventEndDate": "February 10th, 2024 - Saturday",
         "eventImage": "./../../../assets/images/stocks/saraswati-2021.jpg",
@@ -94,7 +94,7 @@
     { 
         "eventId":8,
         "eventType": "past",
-        "eventName": "Annual Picnic",
+        "eventName": "Annual Picnic 2023",
         "eventDate": "June 17th, 2023",
         "eventEndDate": "June 17th, 2023",
         "eventImage": "./../../../assets/images/gallery/common/picnic/picnic-2022.jpg",
@@ -107,7 +107,7 @@
     { 
         "eventId":9,
         "eventType": "past",
-        "eventName": "Kobi Pronam",
+        "eventName": "Kobi Pronam 2023",
         "eventDate": "June 10th, 2023",
         "eventEndDate": "June 10th, 2023",
         "eventImage": "./../../../assets/images/gallery/common/kobipronam.jpg",
@@ -134,7 +134,7 @@
     { 
         "eventId":11,
         "eventType": "past",
-        "eventName": "Poila Boisakh",
+        "eventName": "Poila Boisakh 2023",
         "eventDate": "April 15th, 2023",
         "eventEndDate": "April 15th, 2023",
         "eventImage": "./../../../assets/images/gallery/common/poila-boisakh.jpg",
@@ -147,7 +147,7 @@
     { 
         "eventId":12,
         "eventType": "past",
-        "eventName": "Saraswati Puja",
+        "eventName": "Saraswati Puja 2023",
         "eventDate": "January 28th, 2023 - Saturday",
         "eventEndDate": "January 28th, 2023 - Saturday",
         "eventImage": "./../../../assets/images/stocks/saraswati-2021.jpg",
@@ -160,7 +160,7 @@
     { 
         "eventId":13,
         "eventType": "past",
-        "eventName": "Breakfast with Firefighter  2022",
+        "eventName": "Breakfast with Firefighter 2022",
         "eventDate": "December 4th, 2022 - Sunday",
         "eventEndDate": "December 4th, 2022 - Sunday",
         "eventImage": "./../../../assets/images/stocks/firefighters.jpg",
