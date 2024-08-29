@@ -7,8 +7,8 @@
       "tax": 0.00,
       "sku": "DP2024EBALL01NONREGULAR",
       "currency": "USD"
-    },
-    {
+  },
+  {
       "name": "NVBA Durga Puja 2024 Ticket - All 3 days",
       "description": "Adult Veg",
       "quantity": 0,
@@ -16,28 +16,28 @@
       "tax": 0.00,
       "sku": "DP2024EBALL02VEGREGULAR",
       "currency": "USD"
-    },
-    {
+  },
+  {
       "name": "NVBA Durga Puja 2024 Ticket - All 3 days",
-      "description": "Kids [ 11 to 18 years ] Non-Veg ",
+      "description": "Kids [ 8 to 18 years ] Non-Veg ",
       "quantity": 0,
       "price": 55,
       "tax": 0.00,
       "sku": "DP2024EBALL03NONREGULAR",
       "currency": "USD"
-    },
-    {
+  },
+  {
       "name": "NVBA Durga Puja 2024 Ticket - All 3 days",
-      "description": "Kids [ 11 to 18 years ] Veg",
+      "description": "Kids [ 8 to 18 years ] Veg",
       "quantity": 0,
       "price": 55,
       "tax": 0.00,
       "sku": "DP2024EBALL04VEGREGULAR",
       "currency": "USD"
-    },
+  },
   {
     "name": "NVBA Durga Puja 2024 Ticket - All 3 days ",
-    "description": "Kids [ 0 to 10 years ]",
+    "description": "Kids [ 0 to 7 years ]",
     "quantity": 0,
     "price": 0,
     "tax": 0.00,
@@ -70,8 +70,8 @@
       "tax": 0.00,
       "sku": "DP2024EBFRI01NONREGULAR",
       "currency": "USD"
-    },
-    {
+  },
+  {
       "name": "NVBA Durga Puja 2024 Ticket - Friday Only",
       "description": "Adult Veg",
       "quantity": 0,
@@ -79,28 +79,28 @@
       "tax": 0.00,
       "sku": "DP2024EBFRI02VEGREGULAR",
       "currency": "USD"
-    },
-    {
+  },
+  {
       "name": "NVBA Durga Puja 2024 Ticket - Friday Only",
-      "description": "Kids [ 11 to 18 years ] Non-Veg",
+      "description": "Kids [ 8 to 18 years ] Non-Veg",
       "quantity": 0,
       "price": 40,
       "tax": 0.00,
       "sku": "DP2024EBFRI03NONREGULAR",
       "currency": "USD"
-    },
-    {
+  },
+  {
       "name": "NVBA Durga Puja 2024 Ticket - Friday Only",
-      "description": "Kids [ 11 to 18 years ] Veg",
+      "description": "Kids [ 8 to 18 years ] Veg",
       "quantity": 0,
       "price": 40,
       "tax": 0.00,
       "sku": "DP2024EBFRI04VEGREGULAR",
       "currency": "USD"
-    },
+  },
   {
     "name": "NVBA Durga Puja 2024 Ticket - Friday Only",
-    "description": "Kids [ 0 to 10 years ]",
+    "description": "Kids [ 0 to 7 years ]",
     "quantity": 0,
     "price": 0,
     "tax": 0.00,
@@ -145,7 +145,7 @@
     },
     {
       "name": "NVBA Durga Puja 2024 Ticket - Saturday Only",
-      "description": "Kids [ 11 to 18 years ] - Non-Veg - Please bring your Student ID at venue.",
+      "description": "Kids [ 8 to 18 years ] - Non-Veg - Please bring your Student ID at venue.",
       "quantity": 0,
       "price": 40,
       "tax": 0.00,
@@ -154,7 +154,7 @@
     },
     {
       "name": "NVBA Durga Puja 2024 Ticket - Saturday Only",
-      "description": "Kids [ 11 to 18 years ] - Veg - Please bring your Student ID at venue.",
+      "description": "Kids [ 8 to 18 years ] - Veg - Please bring your Student ID at venue.",
       "quantity": 0,
       "price": 40,
       "tax": 0.00,
@@ -163,7 +163,7 @@
     },
   {
     "name": "NVBA Durga Puja 2024 Ticket - Saturday Only",
-    "description": "Kids [ 0 to 10 years ]",
+    "description": "Kids [ 0 to 7 years ]",
     "quantity": 0,
     "price": 0,
     "tax": 0.00,
@@ -208,7 +208,7 @@
     },
     {
       "name": "NVBA Durga Puja 2024 Ticket - Sunday Only",
-      "description": "Kids [ 11 to 18 years ] Non-Veg",
+      "description": "Kids [ 8 to 18 years ] Non-Veg",
       "quantity": 0,
       "price": 40,
       "tax": 0.00,
@@ -217,7 +217,7 @@
     },
     {
       "name": "NVBA Durga Puja 2024 Ticket - Sunday Only",
-      "description": "Kids [ 11 to 18 years ] Veg",
+      "description": "Kids [ 8 to 18 years ] Veg",
       "quantity": 0,
       "price": 40,
       "tax": 0.00,
@@ -226,7 +226,7 @@
     },
   {
     "name": "NVBA Durga Puja 2024 Ticket - Sunday Only",
-    "description": "Kids [ 0 to 10 years ]",
+    "description": "Kids [ 0 to 7 years ]",
     "quantity": 0,
     "price": 0,
     "tax": 0.00,
@@ -250,7 +250,5 @@
     "tax": 0.00,
     "sku": "DP2024EBSUN07VEGREGULAR",
     "currency": "USD"
-}
-  
-    
-]    
+  }
+]
