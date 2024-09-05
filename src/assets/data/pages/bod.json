@@ -1,13 +1,14 @@
 [
     {
         "id": "1",
-        "img_url": "assets/images/bod/Paul_Upadhyay.jpeg", 
+        "img_url": "assets/images/bod/Paul_Upadhyay.png", 
         "img_xurl": "",
         "designation":"Board of Director",
         "tag": "",
         "description": "0",
         "display_name": "Paul Upadhyay",
-        "facebook": "https://www.facebook.com/paul.upadhyay",
+        "facebook": "",
+        "email":"panditjee@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
   },
@@ -20,6 +21,7 @@
         "description": "0",
         "display_name": "Debasis Basak",
         "facebook": "",
+        "email":"dbasak@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     },
@@ -32,6 +34,7 @@
         "description": "0",
         "display_name": "Suparna Ray",
         "facebook": "",
+        "email":"suparna@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     }

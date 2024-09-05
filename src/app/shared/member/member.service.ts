@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Member } from './member';
+// import { Member } from './member';
 
 import {
   AngularFireDatabase,
@@ -41,7 +41,7 @@ export class MemberService {
   }
   /* Get member */
   GetMemberbyEmail(email: string) {
-    this.membersRef = this.db.list('/Members')
+    this.membersRef = this.db.list('/Members'+email);
  //   this.membersRef.valueChanges()
     return  this.membersRef;
   }

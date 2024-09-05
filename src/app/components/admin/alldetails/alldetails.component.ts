@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { merge } from 'rxjs';
+// import { merge } from 'rxjs';
 import { MemberService } from './../../../shared/member/member.service';
 import { ConcertticketsService } from './../../../shared/services/tickets/concerttickets.service';
 import { FoodticketsService  } from './../../../shared/services/tickets/foodtickets.service';
@@ -22,6 +22,7 @@ export class AlldetailsComponent implements OnInit {
   private gridColumnApi:any;
 
   memberList:any;
+  foodPurchaseList:any;
   newPurches:boolean = false;
 
   MM2022YY: number = 0;
@@ -52,7 +53,6 @@ export class AlldetailsComponent implements OnInit {
   DP2023CTFRIDAY:number = 0;
   DP2023CTSATURDAY:number = 0;
   DP2023CTSUNDAY:number =0;
-
 
   DP2023EBALL01NON:number = 0;
   DP2023EBALL02VEG:number = 0;
@@ -115,8 +115,18 @@ export class AlldetailsComponent implements OnInit {
   customKid:number =0;
 
 
-  user: { index:number; email: string; firstname: string; lastname: string; expires: string; phone:string } | undefined;
+  user: { index:number; email: string; firstname: string; lastname: string; expires: string; phone:string} | undefined;
 
+   kp2024FoodOurchaseDetails: { purchase_date_time:string;payer_id:string; email: string; firstname: string; lastname: string; payment_method: string; payment_status:string;total:number;
+    vegchopcount:number;vegghugnicount:number;teacount:number;colddrinkscount:number;vegbiriyanicount:number;nonvegbiriyanicount:number
+} | undefined;
+
+    vegchopcount: number = 0;
+    vegghugnicount: number = 0;
+    teacount:number=0;
+    colddrinkscount:number = 0;
+    vegbiriyanicount:number = 0;
+    nonvegbiriyanicount:number = 0;
 
   constructor(private mds: MemberService, private tds: ConcertticketsService, private foodds:FoodticketsService ) {
 
@@ -151,15 +161,7 @@ export class AlldetailsComponent implements OnInit {
 		{ field: 'firstname', sortable: true, resizable: true, filter: true , cellClass: 'center' },
 		{ field: 'lastname', sortable: true, resizable: true, filter: true, cellClass: 'center' },
     { field: 'expires', sortable: true, resizable: true, filter: true },
-
     { field: 'MM2022YY', headerName:'Membership', sortable: true, resizable: true },
-
-    { field: 'KP2024VEGCHOP', headerName:'Veg Chop', sortable: true, resizable: true },
-    { field: 'KP2024GHUGNI', headerName:'Veg Ghugni', sortable: true, resizable: true },
-    { field: 'KP2024TEA', headerName:'Tea', sortable: true, resizable: true },
-    { field: 'KP2024COLDDRINKS', headerName:'Cold Drinks', sortable: true, resizable: true },
-    { field: 'KP2024VEG', headerName:'Veg Biriyani', sortable: true, resizable: true },
-    { field: 'KP2024NONVEG', headerName:'Non-Veg Biriyani', sortable: true, resizable: true },
 
     // { field: 'DP2023EBALL01NON', headerName:'Adult Non-Veg', sortable: true, resizable: true },
     // { field: 'DP2023EBALL02VEG', headerName:'Adult Veg', sortable: true, resizable: true },
@@ -193,9 +195,26 @@ export class AlldetailsComponent implements OnInit {
     // { field: 'DP2023EBSUN06NON', headerName:'Sunday - Students and Visiting Parents Non-Veg', sortable: true, resizable: true },
     // { field: 'DP2023EBSUN07VEG', headerName:'Sunday - Students and Visiting Parents Veg', sortable: true, resizable: true },
 
-    { field: 'phone', sortable: true, resizable: true, filter: true },
+    { field: 'phone', sortable: true, resizable: true, filter: true }
 	];
 
+
+  kp2024foodPurchasecolumnDefs = [
+    // { field: 'payer_id',  sortable: true, resizable: true,  cellClass: 'id-class center' },
+		{ field: 'purchase_date_time', headerName:'Purchase Date/Time',sortable: true, resizable: false, filter: true  },
+		{ field: 'firstname', sortable: true, resizable: false, filter: true  },
+		{ field: 'lastname', sortable: true, resizable: false, filter: true },
+    // { field: 'email', sortable: true, resizable: true, filter: true },
+    { field: 'vegchopcount', headerName:'Veg Chop', sortable: true, resizable: false },
+    { field: 'vegghugnicount', headerName:'Veg Ghugni', sortable: true, resizable: false },
+    { field: 'teacount', headerName:'Tea', sortable: true, resizable: false },
+    { field: 'colddrinkscount', headerName:'Cold Drinks', sortable: true, resizable: false },
+    { field: 'vegbiriyanicount', headerName:'Veg Biriyani', sortable: true, resizable: false },
+    { field: 'nonvegbiriyanicount', headerName:'Non-Veg Biriyani', sortable: true, resizable: false },
+    { field: 'total', sortable: true, resizable: true, filter: false },
+    { field: 'payment_method', sortable: true, resizable: true, filter: false },
+    { field: 'payment_status', headerName:'Status', sortable: true, resizable: false },
+	];
 
 
   columnDefsTickets = [
@@ -235,6 +254,7 @@ export class AlldetailsComponent implements OnInit {
     { field: 'DP2023EBSUN05KID', headerName:'Sunday - Kids [ 0 to 10 years ]', sortable: true, resizable: true },
     { field: 'DP2023EBSUN06NON', headerName:'Sunday - Students and Visiting Parents Non-Veg', sortable: true, resizable: true },
     { field: 'DP2023EBSUN07VEG', headerName:'Sunday - Students and Visiting Parents Veg', sortable: true, resizable: true },
+
     { field: 'expires', sortable: true, resizable: true, filter: true },
     { field: 'phone', sortable: true, resizable: true, filter: true },
     { field: 'MM2022YY', headerName:'Membership', sortable: true, resizable: true },
@@ -292,64 +312,79 @@ export class AlldetailsComponent implements OnInit {
   //     //  if(ct.transactions[0].item_list.items[1].sku == 'KP2023NON'){
   //     //   this.KP2023NON = this.KP2023NON + parseInt(ct.transactions[0].item_list.items[1].quantity );
   //     //  }
-       
-
   //    });
   // }
 
 
 
     checkKP2024Details(){
-    [...this.foodTickets].forEach( ct =>{
+      this.foodPurchaseList = [];
+
+      [...this.foodTickets].forEach( ct =>{
         console.log(' Each row KP2024');
-       console.log(ct.transactions[0].item_list.items[0].quantity );
-       [...ct.transactions[0].item_list.items].forEach( item =>{
 
-        console.log(item);
-        //"KP2024VEGCHOP"
-        if(item.sku == 'KP2024VEGCHOP'){
-          this.KP2024VEGCHOP = this.KP2024VEGCHOP + parseInt(item.quantity );
-         }
-        //"KP2024GHUGNI"
-        if(item.sku == 'KP2024GHUGNI'){
-          this.KP2024GHUGNI = this.KP2024GHUGNI + parseInt(item.quantity );
-         }
-        //"KP2024TEA"
-        if(item.sku == 'KP2024TEA'){
-          this.KP2024TEA = this.KP2024TEA + parseInt(item.quantity );
-         }
-        //"KP2024COLDDRINKS"
-        if(item.sku == 'KP2024COLDDRINKS'){
-          this.KP2024COLDDRINKS = this.KP2024COLDDRINKS + parseInt(item.quantity );
-         }
+        this.vegchopcount = 0;
+        this.vegghugnicount = 0;
+        this.teacount = 0;
+        this.colddrinkscount = 0;
+        this.vegbiriyanicount = 0;
+        this.nonvegbiriyanicount = 0;
 
-         //"KP2024VEG"
-        if(item.sku == 'KP2024VEG'){
-          this.KP2024VEG = this.KP2024VEG + parseInt(item.quantity );
-        }
-        //"KP2024NON"
-        if(item.sku == 'KP2024NONVEG'){
-          this.KP2024NONVEG = this.KP2024NONVEG + parseInt(item.quantity );
-        }
+        console.log(ct.transactions[0].item_list.items[0].quantity );
+        [...ct.transactions[0].item_list.items].forEach( item =>{
 
+          console.log(item);
+          //"KP2024VEGCHOP"
+          if(item.sku == 'KP2024VEGCHOP'){
+            this.KP2024VEGCHOP = this.KP2024VEGCHOP + parseInt(item.quantity );
+            this.vegchopcount = parseInt(item.quantity );
+          }
+          //"KP2024GHUGNI"
+          if(item.sku == 'KP2024GHUGNI'){
+            this.KP2024GHUGNI = this.KP2024GHUGNI + parseInt(item.quantity );
+            this.vegghugnicount = parseInt(item.quantity );
+          }
+          //"KP2024TEA"
+          if(item.sku == 'KP2024TEA'){
+            this.KP2024TEA = this.KP2024TEA + parseInt(item.quantity );
+            this.teacount = parseInt(item.quantity );
+          }
+          //"KP2024COLDDRINKS"
+          if(item.sku == 'KP2024COLDDRINKS'){
+            this.KP2024COLDDRINKS = this.KP2024COLDDRINKS + parseInt(item.quantity );
+            this.colddrinkscount = parseInt(item.quantity );
+          }
+
+          //"KP2024VEG"
+          if(item.sku == 'KP2024VEG'){
+            this.KP2024VEG = this.KP2024VEG + parseInt(item.quantity );
+            this.vegbiriyanicount = parseInt(item.quantity );
+          }
+          //"KP2024NON"
+          if(item.sku == 'KP2024NONVEG'){
+            this.KP2024NONVEG = this.KP2024NONVEG + parseInt(item.quantity );
+            this.nonvegbiriyanicount = parseInt(item.quantity );
+          }
        })
 
-      //  //"KP2023VEG"
-      //  if(ct.transactions[0].item_list.items[0].sku == 'KP2023VEG'){
-      //   this.KP2023VEG = this.KP2023VEG + parseInt(ct.transactions[0].item_list.items[0].quantity );
-      //  }
-      //  //"KP2023NON"
-      //  if(ct.transactions[0].item_list.items[0].sku == 'KP2023NON'){
-      //   this.KP2023NON = this.KP2023NON + parseInt(ct.transactions[0].item_list.items[0].quantity );
-      //  }
-      //  if(ct.transactions[0].item_list.items[1].sku == 'KP2023VEG'){
-      //   this.KP2023VEG = this.KP2023VEG + parseInt(ct.transactions[0].item_list.items[1].quantity );
-      //  }
-      //  //"KP2023NON"
-      //  if(ct.transactions[0].item_list.items[1].sku == 'KP2023NON'){
-      //   this.KP2023NON = this.KP2023NON + parseInt(ct.transactions[0].item_list.items[1].quantity );
-      //  }
-       
+       this.kp2024FoodOurchaseDetails = {
+        payer_id : ct.payer.payer_info.payer_id,
+        purchase_date_time: ct.create_time,
+        email : ct.payer.payer_info.email,
+        firstname : ct.payer.payer_info.first_name,
+        lastname : ct.payer.payer_info.last_name,
+        payment_method : ct.payer.payment_method,
+        payment_status : ct.state,
+        total : ct.transactions[0].amount.total,
+        vegchopcount : this.vegchopcount,
+        vegghugnicount:this.vegghugnicount,
+        teacount:this.teacount,
+        colddrinkscount:this.colddrinkscount,
+        vegbiriyanicount:this.vegbiriyanicount,
+        nonvegbiriyanicount:this.nonvegbiriyanicount
+      };
+      this.foodPurchaseList.unshift(this.kp2024FoodOurchaseDetails);
+    // console.log(this.kp2024FoodOurchaseDetails);
 
      });
   }
@@ -418,17 +453,14 @@ export class AlldetailsComponent implements OnInit {
     this.SP2024STUDENTEBVEG =0;
   
     this.SP2024KIDS=0;
-  
-    
 
   //  console.log(this.rowData);
     [...this.rowData].forEach( m =>{ 
     //   console.log(m.purchase? true : false)  ;
-    
 
        if(m.purchase? true : false){
          
-         [...m.purchase].forEach(element => {
+          [...m.purchase].forEach(element => {
           const userTicket = {};
           const customTicket = {};
           this.newPurches = false;
@@ -488,38 +520,6 @@ export class AlldetailsComponent implements OnInit {
                 //   Object.assign(userTicket,{ KP2023VEG : e.quantity });
                 //   this.newPurches = true;
                 // }
-
-                if(e.sku.includes("KP2024VEGCHOP")){  
-                  this.KP2024VEGCHOP += e.quantity ;
-                  Object.assign(userTicket,{ KP2024VEGCHOP : e.quantity });
-                  this.newPurches = true;
-                }
-                if(e.sku.includes("KP2024GHUGNI")){  
-                  this.KP2024GHUGNI += e.quantity ;
-                  Object.assign(userTicket,{ KP2024GHUGNI : e.quantity });
-                  this.newPurches = true;
-                }
-                if(e.sku.includes("KP2024TEA")){  
-                  this.KP2024TEA += e.quantity ;
-                  Object.assign(userTicket,{ KP2024TEA : e.quantity });
-                  this.newPurches = true;
-                }
-                if(e.sku.includes("KP2024COLDDRINKS")){  
-                  this.KP2024COLDDRINKS += e.quantity ;
-                  Object.assign(userTicket,{ KP2024COLDDRINKS : e.quantity });
-                  this.newPurches = true;
-                }
-
-                if(e.sku.includes("KP2024NONVEG")){  
-                  this.KP2024NONVEG += e.quantity ;
-                  Object.assign(userTicket,{ KP2024NONVEG : e.quantity });
-                  this.newPurches = true;
-                }
-                if(e.sku.includes("KP2024VEG")){  
-                  this.KP2024VEG += e.quantity ;
-                  Object.assign(userTicket,{ KP2024VEG : e.quantity });
-                  this.newPurches = true;
-                }
 
                 // if(e.sku.includes("MM2022YY")){  KP2023VEG
                 //     this.MM2022YY += e.quantity ;
@@ -675,7 +675,6 @@ export class AlldetailsComponent implements OnInit {
                 //   this.newPurches = true;
                 // }
                 
-                
           }); // End of Purchase Loop e
           
           if(this.newPurches){
@@ -688,9 +687,9 @@ export class AlldetailsComponent implements OnInit {
               phone : m.phone
             };
             Object.assign(this.user, userTicket );
-         //   this.user = this.user 
+            //   this.user = this.user 
             this.memberList.unshift(this.user);
-           // console.log(this.user);
+            // console.log(this.user);
           }
           
         }); // End of Each Member
@@ -702,7 +701,6 @@ export class AlldetailsComponent implements OnInit {
   //  this.lastOrder = this.rowData.purchase? true : false ;
 
   }
-
 
   onBtnExport() {
     this.gridApi.exportDataAsCsv();

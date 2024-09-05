@@ -17,13 +17,16 @@
                     <div class="d-flex mb-4">
                         <div class="img" style="background-image: url({{member.img_url}});"></div>
                         <div class="info ml-4">
-                            <h3><a routerLink="{{member.facebook}}">{{member.display_name}}</a></h3>
+                            <h3>{{member.display_name}}</h3>
+                            <!-- <h3><a routerLink="{{member.facebook}}">{{member.display_name}}</a></h3> -->
                             <div class="position text mb-3">
-                                <p>{{member.designation}}</p>
-                                </div>
-                            <div class="text">
-                                <p *ngIf="member.facebook?member.facebook:member.linkedin" ><a target="_blank" href="{{member.facebook?member.facebook:member.linkedin}}">Social link to connect</a></p>
+                                <!-- <p>{{member.designation}}</p> -->
+                                <img class="text-center" width="20" height="20" src="./../../../../assets/images/ecm/Email_Icon.png " >
+                                <p *ngIf="member.facebook?member.facebook:member.email" >{{member.facebook?member.facebook:member.email}}</p>
                             </div>
+                            <!-- <div class="text">
+                                <p *ngIf="member.facebook?member.facebook:member.linkedin" ><a target="_blank" href="{{member.facebook?member.facebook:member.linkedin}}">Social link to connect</a></p>
+                            </div> -->
                         </div>
                     </div>
                 </div>

@@ -1,46 +1,71 @@
 [
     { 
         "eventId":1,
-        "eventType": "current",
-        "eventName": "Kobi Pronam",
+        "eventType": "past",
+        "eventName": "Kobi Pronam 2024",
         "eventDate": "June 22nd, 2024",
         "eventEndDate": "June 22nd, 2024",
-        "eventImage": "./../../../assets/images/gallery/common/kobipronam.jpg",
-        "timming": "6-9:30 PM",
+        "eventImage": "./../../../assets/images/stocks/kbp-2022.png",
+        "timming": "6:00 PM - 9:30 PM",
         "venue": "Mercer Middle School, 42149 Greenstone Dr, Aldie, VA 20105",
         "pageLink": "/kobipronam2024",
         "description": "Tribute for Kobi Pronam. As Bengalis we are always very proud of this unique event in honor of the poets who form the cornerstone of our Bengali culture.",
-        "mapUrl": "https://www.google.com/maps/dir//Mercer+Middle+School,+42149+Greenstone+Dr,+Aldie,+VA+20105/@38.9247839,-77.549134,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89b641c3ba822e23:0xf3d318eb03789316!2m2!1d-77.5469453!2d38.9247839!3e0"
+        "mapUrl": "https://goo.gl/maps/R7hwqUSVbtTfyt2DA"
     },
     { 
-        "eventId":11,
+        "eventId":2,
         "eventType": "past",
-        "eventName": "Poila Boisakh",
+        "eventName": "Annual Picnic 2024",
+        "eventDate": "June 29th, 2024",
+        "eventEndDate": "June 29th, 2024",
+        "eventImage": "./../../../assets/images/gallery/picnic2024/picnic_2024_group_photo.jpg",
+        "timming": "10:00 AM - 6:00 PM",
+        "venue": "Shelter 8 at Bull Run Park,7700 Bull Run Dr, Centreville, VA 20121",
+        "pageLink": "/picnic2024",
+        "description": "Our annual picnic, where all our members were invite to a free picnic event for a great day of food, fun and friendship. Special attraction T20 Cricket Final live streaming, live photo booth.",
+        "mapUrl": "https://goo.gl/maps/2MnaWV3i8LLBneY39"
+    },
+    { 
+        "eventId":3,
+        "eventType": "current",
+        "eventName": "Sarbojanin Durgotsob 2024",
+        "eventDate": "October 11th, 2024 - October 13th, 2024",
+        "eventEndDate": "October 13th, 2024",
+        "eventImage": "./../../../assets/images/stocks/DP-2020.jpg",
+        "timming": "October 11th - 6 pm to 10 pm. October 12th and 13th - 10 am to 10 pm.",
+        "venue": "Freedom High School, 25450 Riding Center Dr, Chantilly, VA 20152",
+        "pageLink": "/durgapuja2024",
+        "description": "Come join us to celebrate our most auspicious Bengali event of the year.",
+        "mapUrl": "https://maps.app.goo.gl/6idn5Y9pDNAufvr98"
+    },
+    { 
+        "eventId":4,
+        "eventType": "past",
+        "eventName": "Poila Boisakh 2024",
         "eventDate": "April 13th, 2024",
         "eventEndDate": "April 13th, 2024",
         "eventImage": "./../../../assets/images/gallery/common/newyear-2024.png",
-        "timming": "April 13th - 10 am to 5pm",
+        "timming": "10:00 AM - 5:00 PM",
         "venue": "Washington Kali Temple",
         "pageLink": "/poilabaishak2024",
         "description": "Come join us to celebrate our new year. Entry: FREE ",
         "mapUrl": "https://goo.gl/maps/oK7kDeWN1RjXAZQRA"
     },
     { 
-        "eventId":4,
+        "eventId":5,
         "eventType": "past",
-        "eventName": "Saraswati Puja",
+        "eventName": "Saraswati Puja 2024",
         "eventDate": "February 10th, 2024 - Saturday",
         "eventEndDate": "February 10th, 2024 - Saturday",
         "eventImage": "./../../../assets/images/stocks/saraswati-2021.jpg",
-        "timming": "11 am - 10 pm",
+        "timming": "11:00 AM - 10:00 PM",
         "venue": "Mercer Middle School, 42149 Greenstone Dr, Aldie, VA 20105",
         "pageLink": "/saraswatipuja",
         "description": "Saraswati Puja",
-        "mapUrl": "https://goo.gl/maps/iUQvcV6htit6HW3e8"
+        "mapUrl": "https://goo.gl/maps/R7hwqUSVbtTfyt2DA"
     },
-   
     { 
-        "eventId":231,
+        "eventId":6,
         "eventType": "past",
         "eventName": "Sarbojanin Durgotsob 2023",
         "eventDate": "October 20th, 2023 - October 22nd, 2023",
@@ -48,13 +73,12 @@
         "eventImage": "./../../../assets/images/stocks/2023/durga-ascha.jpg",
         "timming": "October 20th - 6 pm to 10 pm. October 21st and 22nd - 9am to 10 pm.",
         "venue": "Park View High School, 400 W Laurel Ave, Sterling, VA 20164",
-        "pageLink": "/durgapuja",
+        "pageLink": "/durgapuja2023",
         "description": "Come join us to celebrate our most auspicious Bengali event of the year.",
-        "mapUrl": ""
+        "mapUrl": "https://goo.gl/maps/PoVeTVJAiWWPYdUr9"
     },
-   
     { 
-        "eventId":2311,
+        "eventId":7,
         "eventType": "past",
         "eventName": "Pancham Swar",
         "eventDate": "September 10th, 2023",
@@ -67,35 +91,34 @@
         "mapUrl": "https://www.google.com/maps/place/Richard+J+Ernst+Community+Cultural+Center/@38.8333994,-77.2389877,17z/data=!3m1!4b1!4m6!3m5!1s0x89b64cf9a4b7d595:0x736872a31ef0fe0b!8m2!3d38.8333994!4d-77.236799!16s%2Fg%2F1tfb7fvw?entry=ttu",
         "externalLink":"https://breakthetide.org/"
     },
-    
     { 
-        "eventId":13,
+        "eventId":8,
         "eventType": "past",
-        "eventName": "Annual Picnic",
+        "eventName": "Annual Picnic 2023",
         "eventDate": "June 17th, 2023",
         "eventEndDate": "June 17th, 2023",
         "eventImage": "./../../../assets/images/gallery/common/picnic/picnic-2022.jpg",
-        "timming": "June 17th from 10:00AM to 4:00PM",
-        "venue": "Shelter 8 at Bull Run ",
+        "timming": "10:00 AM - 4:00 PM",
+        "venue": "Shelter 8 at Bull Run,7700 Bull Run Dr, Centreville, VA 20121",
         "pageLink": "/picnic",
         "description": "Our annual picnic, where all our members were invite to a free picnic event for a great day of food, fun and friendship..",
-        "mapUrl": "https://www.google.com/maps/dir/38.8759552,-77.2243456/Shelter+8+at+Bull+Run,+7700+Bull+Run+Dr,+Centreville,+VA+20121/"
+        "mapUrl": "https://goo.gl/maps/2MnaWV3i8LLBneY39"
     },
     { 
-        "eventId":12,
+        "eventId":9,
         "eventType": "past",
-        "eventName": "Kobi Pronam",
+        "eventName": "Kobi Pronam 2023",
         "eventDate": "June 10th, 2023",
         "eventEndDate": "June 10th, 2023",
         "eventImage": "./../../../assets/images/gallery/common/kobipronam.jpg",
-        "timming": "7-10 PM",
+        "timming": "7:00 PM - 10:00 PM",
         "venue": "Mercer Middle School, 42149 Greenstone Dr, Aldie, VA 20105",
         "pageLink": "/kobipronam",
         "description": "Tribute for Kobi Pronam. As Bengalis we are always very proud of this unique event in honor of the poets who form the cornerstone of our Bengali culture.",
-        "mapUrl": "https://www.google.com/maps/dir//Mercer+Middle+School,+42149+Greenstone+Dr,+Aldie,+VA+20105/@38.9247839,-77.549134,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89b641c3ba822e23:0xf3d318eb03789316!2m2!1d-77.5469453!2d38.9247839!3e0"
+        "mapUrl": "https://goo.gl/maps/R7hwqUSVbtTfyt2DA"
     },
     { 
-        "eventId":14,
+        "eventId":10,
         "eventType": "past",
         "eventName": "Tagore and the Colors of Spring",
         "eventDate": "May 19th, 2023",
@@ -111,58 +134,57 @@
     { 
         "eventId":11,
         "eventType": "past",
-        "eventName": "Poila Boisakh",
+        "eventName": "Poila Boisakh 2023",
         "eventDate": "April 15th, 2023",
         "eventEndDate": "April 15th, 2023",
         "eventImage": "./../../../assets/images/gallery/common/poila-boisakh.jpg",
-        "timming": "April 15th - 10 am to 5pm",
+        "timming": "10:00 AM - 5:00 PM",
         "venue": "Washington Kali Temple",
         "pageLink": "",
         "description": "Come join us to celebrate our new year.",
         "mapUrl": "https://goo.gl/maps/oK7kDeWN1RjXAZQRA"
     },
-    
     { 
-        "eventId":4,
+        "eventId":12,
         "eventType": "past",
-        "eventName": "Saraswati Puja",
+        "eventName": "Saraswati Puja 2023",
         "eventDate": "January 28th, 2023 - Saturday",
         "eventEndDate": "January 28th, 2023 - Saturday",
         "eventImage": "./../../../assets/images/stocks/saraswati-2021.jpg",
-        "timming": "11 am - 5 pm",
+        "timming": "11:00 AM - 5:00 PM",
         "venue": "Mercer Middle School, 42149 Greenstone Dr, Aldie, VA 20105",
         "pageLink": "/saraswatipuja",
         "description": "Saraswati Puja   ",
-        "mapUrl": "https://goo.gl/maps/iUQvcV6htit6HW3e8"
+        "mapUrl": "https://goo.gl/maps/R7hwqUSVbtTfyt2DA"
     },
     { 
-        "eventId":3,
+        "eventId":13,
         "eventType": "past",
-        "eventName": "Breakfast with Firefighter  2022",
+        "eventName": "Breakfast with Firefighter 2022",
         "eventDate": "December 4th, 2022 - Sunday",
         "eventEndDate": "December 4th, 2022 - Sunday",
         "eventImage": "./../../../assets/images/stocks/firefighters.jpg",
-        "timming": "6 am - 8 am",
+        "timming": "6:00 AM - 8:00 AM",
         "venue": "Northern Virginia",
         "pageLink": "/home",
         "description": "Break fast with Firefighter  ",
         "mapUrl": ""
     },
     { 
-        "eventId":2,
+        "eventId":14,
         "eventType": "past",
         "eventName": "Annual General Meeting (AGM) 2022",
         "eventDate": "December 3th, 2022 - Saturday",
         "eventEndDate": "December 3th, 2022 - Saturday",
         "eventImage": "./../../../assets/images/stocks/agm.jpg",
-        "timming": "4 pm - 6 pm",
+        "timming": "4:00 PM - 6:00 PM",
         "venue": "Chantilly Regional Library  4000 Stringfellow Rd, Chantilly, VA 20151",
         "pageLink": "/agm",
         "description": "Your participation is highly appreciated.",
         "mapUrl": "https://www.google.com/maps/place/Chantilly+Regional+Library/@38.8826348,-77.4103814,17z/data=!4m5!3m4!1s0x89b645d93e9c74d7:0xea49f7691dcdee5f!8m2!3d38.8826348!4d-77.4081927"
     },
     { 
-        "eventId":1,
+        "eventId":15,
         "eventType": "past",
         "eventName": "Sarbojanin Durgotsob 2022",
         "eventDate": "September 30th, 2022 - October 2nd, 2022",
@@ -170,12 +192,8 @@
         "eventImage": "./../../../assets/images/gallery/common/durga-puja.jpg",
         "timming": "September 30th - 6 pm to 10 pm. October 1st and 2nd - 9am to 10 pm.",
         "venue": "Freedom High School, 25450 Riding Center Dr, Chantilly, VA 20152",
-        "pageLink": "",
+        "pageLink": "/durgapuja2022",
         "description": "Come join us to celebrate our most auspicious Bengali event of the year.",
-        "mapUrl": ""
+        "mapUrl": "https://maps.app.goo.gl/6idn5Y9pDNAufvr98"
     }
-    
-    
-
-    
 ]

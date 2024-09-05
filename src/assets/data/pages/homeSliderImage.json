@@ -1,12 +1,11 @@
 [
     {
-        "homeSliderImageId": "4",
+        "homeSliderImageId": "1",
         "homeSliderImage": "1.jpg",
         "imageLink": "./../../../assets/images/gallery/common/images-2021/1.jpg",
         "tag": "",
         "description": ""
     },
-    
     {
         "homeSliderImageId": "2",
         "homeSliderImage": "DP-2023",
@@ -16,14 +15,14 @@
     },{
         "homeSliderImageId": "3",
         "homeSliderImage": "bg_3.jpg",
-        "imageLink": "./../../../assets/images/gallery/common/picnic/picnic-2022.jpg",
+        "imageLink": "./../../../assets/images/gallery/picnic2024/picnic_2024_group_photo.jpg",
         "tag": "",
         "description": ""
     },
     {
-        "homeSliderImageId": "1",
+        "homeSliderImageId": "4",
         "name": "durgapuja-2023-3.jpg",
-        "imageLink": "./../../../assets/images/gallery/dp/durgapuja-2023-3.jpg",
+        "imageLink": "./../../../assets/images/gallery/dp2023/durgapuja-2023-3.jpg",
         "tag": "",
         "description": ""
     }

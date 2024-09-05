@@ -7,6 +7,7 @@ import { AuthService } from './../../shared/services/auth.service';
   templateUrl: './durgapuja.component-2023.html',
   styleUrls: ['./durgapuja.component.scss']
 })
+
 export class DurgapujaComponent implements OnInit {
   @ViewChild('playA') playA!: ElementRef;
 

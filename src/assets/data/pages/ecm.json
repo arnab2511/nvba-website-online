@@ -7,7 +7,8 @@
         "tag": "",
         "description": "0",
         "display_name": "Sumanta Chakraborty",
-        "facebook": "https://www.facebook.com/sumanta.chakraborty.92/",
+        "facebook": "",
+        "email":"president@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     },
@@ -19,7 +20,8 @@
         "tag": "",
         "description": "",
         "display_name": "Arijit Auddy",
-        "facebook": "https://www.facebook.com/arijit.auddy",
+        "facebook": "",
+        "email":"general_secretary@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     },
@@ -31,7 +33,8 @@
         "tag": "",
         "description": "",
         "display_name": "Ipsita Ghosh",
-        "facebook": "https://www.facebook.com/ipsita.ghosh.50",
+        "facebook": "",
+        "email":"treasurer@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     },
@@ -43,7 +46,8 @@
         "tag": "",
         "description": "",
         "display_name": "Satarupa Das",
-        "facebook": "https://www.facebook.com/sameeransatarupa.das",
+        "facebook": "",
+        "email":"cultural@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     },
@@ -56,7 +60,8 @@
         "description": "",
         "display_name": "Mrinal Chakraborty",
         "facebook": "",
-        "linkedin": "https://www.facebook.com/mrinal.chakraborty.733",
+        "email":"food@novaba.onmicrosoft.com",
+        "linkedin": "",
         "website":""
     },
     {
@@ -67,7 +72,8 @@
         "tag": "",
         "description": "",
         "display_name": "Arnab Chakraborty",
-        "facebook": "https://www.facebook.com/25Arnab",
+        "facebook": "",
+        "email":"it_secretary@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     },
@@ -79,7 +85,8 @@
         "tag": "",
         "description": "",
         "display_name": "Nayan Bhattacharjee",
-        "facebook": "https://www.facebook.com/nayan.bhattacharjee.7",
+        "facebook": "",
+        "email":"logistics@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     },
@@ -92,6 +99,7 @@
         "description": "",
         "display_name": "Sugata Chakraborty",
         "facebook": "",
+        "email":"public_relations@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     },
@@ -103,7 +111,8 @@
         "tag": "",
         "description": "",
         "display_name": "Tapasri Chakraborty",
-        "facebook": "https://www.facebook.com/tapasri.chakraborty",
+        "facebook": "",
+        "email":"communications_secretary@novaba.onmicrosoft.com",
         "linkedin": "",
         "website":""
     },
@@ -116,6 +125,7 @@
         "description": "",
         "display_name": "Swapan Acharya",
         "facebook": "https://www.facebook.com/swapan.acharyya1",
+        "email":"",
         "linkedin": "",
         "website":""
     }

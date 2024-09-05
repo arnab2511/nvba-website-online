@@ -11,10 +11,8 @@
 
     <div class="container" >
 
-        <h3 class="text-center mt-3 mb-2 " >Kobi Pronam Tickets Details of 2024</h3>
+        <h3 class="text-center mt-3 mb-2 " >Kobi Pronam-2024 Food Sell Summary</h3>
 
-        <!-- <p>Total Membership of 2023 =>  {{MM2023YY}}</p>  -->
-        <!-- {{rowData}} -->
         <div>
 
             <table class="table table-bordered " >
@@ -31,25 +29,25 @@
                     <th align="d-flex justify-content-center">Count/Price Details</th>
                 </tr>
                 <tr>
-                  <th>Veg Chop($2/pcs)</th>
+                  <th>Veg Chop($3/2 pcs)</th>
                   <td>
                       <div class="d-flex justify-content-around ">
-                          <div class="green" >{{KP2024VEGCHOP}}</div>
-                          <div class="green" >${{KP2024VEGCHOP*2}}</div>
+                          <div class="green" >{{KP2024VEGCHOP*2}}</div>
+                          <div class="green" >${{KP2024VEGCHOP*3}}</div>
                      </div> 
                   </td>
                 </tr>
                 <tr>
-                  <th>Veg Ghugni($3/bowl)</th>
+                  <th>Veg Ghugni($2/bowl)</th>
                   <td>
                       <div class="d-flex justify-content-around ">
                           <div class="green">{{KP2024GHUGNI}}</div>
-                          <div class="green" >${{KP2024GHUGNI*3}}</div>
+                          <div class="green" >${{KP2024GHUGNI*2}}</div>
                       </div>
                   </td>
                 </tr>
                 <tr>
-                  <th>Tea($1/cup)</th>
+                  <th>Tea($1)</th>
                   <td>
                       <div class="d-flex justify-content-around ">
                           <div class="green" >{{KP2024TEA}}</div>
@@ -71,20 +69,20 @@
                     <th>Count/Price Details</th>
                 </tr>
                 <tr>
-                    <th>Veg Biriyani($10)</th>
+                    <th>Veg Biriyani with Sweet and Raita($8)</th>
                     <td>
                         <div class="d-flex justify-content-around ">
                             <div class="green" >{{KP2024VEG}}</div>
-                            <div class="green" >${{KP2024VEG*10}}</div>
+                            <div class="green" >${{KP2024VEG*8}}</div>
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <th>Non-Veg Biriyani($12)</th>
+                    <th>Non-Veg Biriyani with Sweet and Raita($10)</th>
                     <td>
                         <div class="d-flex justify-content-around ">
                             <div class="green" >{{KP2024NONVEG}}</div>
-                            <div class="green" >${{KP2024NONVEG*12}}</div>
+                            <div class="green" >${{KP2024NONVEG*10}}</div>
                         </div>
                     </td>
                 </tr>
@@ -92,7 +90,7 @@
                     <th>Total Food Sell</th>
                       <th>
                         <div class="d-flex justify-content-around ">
-                            <div  >${{KP2024VEGCHOP*2+KP2024GHUGNI*3+KP2024TEA*1+KP2024COLDDRINKS*1+KP2024VEG*10+KP2024NONVEG*12}}</div>
+                            <div  >${{KP2024VEGCHOP*3+KP2024GHUGNI*2+KP2024TEA*1+KP2024COLDDRINKS*1+KP2024VEG*8+KP2024NONVEG*10}}</div>
                         </div>
                       </th>
                 </tr>
@@ -315,8 +313,31 @@
         
         
     </div>
-
+    
     <div class=" container mt-5 mb-3 " >
+
+        <h3 class="text-center " >Kobi Pronam-2024 Food Purchase Transactions</h3>
+        
+        <div class=" mb-3  table-bordered" >
+            <ag-grid-angular
+                style="height:500px; "
+                class="ag-theme-alpine table-light table-responsive agGridTable"
+                #agGrid
+                
+                id="myGrid"
+                class="ag-theme-alpine"
+                (gridReady)="onGridReady($event)"
+                [rowData]="foodPurchaseList"
+                [columnDefs]="kp2024foodPurchasecolumnDefs"
+                [animateRows]="true"
+                 >
+            </ag-grid-angular>
+      </div>
+      <!-- <div class=" d-flex justify-content-end mb-5 " >
+        <button (click)="onBtnExport()" class=" btn-get-started " > Export CSV File </button>
+      </div> -->
+
+      <div class=" container mt-5 mb-3 " >
 
         <h3 class="text-center " >Membership Details of 2024</h3>
         
@@ -338,6 +359,8 @@
       <div class=" d-flex justify-content-end mb-5 " >
         <button (click)="onBtnExport()" class=" btn-get-started " > Export CSV File </button>
       </div>
+
+    </div>
 
     </div>
 

@@ -47,10 +47,11 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 
 import { NgxPayPalModule } from 'ngx-paypal';
 import { CartticketsComponent } from './helper/dashboard/carttickets/carttickets.component';
-import { DurgapujaComponent } from './pages/durgapuja/durgapuja.component';
+import { Durgapuja2022Component } from './pages/durgapuja2022/durgapuja2022.component';
+import { Durgapuja2023Component } from './pages/durgapuja2023/durgapuja2023.component';
 import { HistoryComponent } from './pages/aboutus/history/history.component';
 import { GalleryComponent } from './pages/gallery/gallery/gallery.component';
-import { PastteamsComponent } from './pages/archive/pastteams/pastteams.component';
+import { Pastteam2020To21Component } from './pages/archive/pastteam2020-21/pastteam2020-21.component';
 import { MagazinesComponent } from './pages/archive/magazines/magazines.component';
 import { Durgapujatickets2022Component } from './helper/tickets/durgapujatickets2022/durgapujatickets2022.component';
 import { TicketsComponent } from './components/tickets/tickets.component';
@@ -77,10 +78,12 @@ import { ProposedconstitutionComponent } from './pages/archive/proposedconstitut
 
 import { UserDetailsCheckComponent } from './components/user-details-check/user-details-check.component';
 import { QRCodeModule } from 'angularx-qrcode';
-import { Pastteam2023to24Component } from './pages/archive/pastteam2023to24/pastteam2023to24.component';
+import { Pastteam2022To23Component } from './pages/archive/pastteam2022-23/pastteam2022-23.component';
 import { Kobipronam2024Component } from './pages/kobipronam2024/kobipronam2024.component';
 import { TechadvisorComponent } from './pages/aboutus/techadvisor/techadvisor.component';
 import { Poilabaishak2024Component } from './pages/poilabaishak2024/poilabaishak2024.component';
+import { Picnic2024Component } from './pages/picnic2024/picnic2024.component';
+import { Durgapuja2024Component } from './pages/durgapuja2024/durgapuja2024.component';
 
 
 @NgModule({
@@ -107,10 +110,11 @@ import { Poilabaishak2024Component } from './pages/poilabaishak2024/poilabaishak
     CheckoutComponent,
     ProfileComponent,
     CartticketsComponent,
-    DurgapujaComponent,
+    Durgapuja2022Component,
+    Durgapuja2023Component,
     HistoryComponent,
     GalleryComponent,
-    PastteamsComponent,
+    Pastteam2020To21Component,
     MagazinesComponent,
     Durgapujatickets2022Component,
     TicketsComponent,
@@ -132,10 +136,12 @@ import { Poilabaishak2024Component } from './pages/poilabaishak2024/poilabaishak
 
     ProposedconstitutionComponent,
     UserDetailsCheckComponent,
-    Pastteam2023to24Component,
+    Pastteam2022To23Component,
     Kobipronam2024Component,
     TechadvisorComponent,
-    Poilabaishak2024Component
+    Poilabaishak2024Component,
+    Picnic2024Component,
+    Durgapuja2024Component
 
   ],
   imports: [
